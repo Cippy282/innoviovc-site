@@ -12,20 +12,25 @@
   // year
   $$('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear()});
 
+  var RO=(document.documentElement.lang||'ro').indexOf('ro')===0;
   function buildMsg(d){
     var L=[];
-    if(d.call){L.push('Bună ziua, domnule Ghioc,','','Doresc o ofertă de consultanță pentru apelul de finanțare:','„'+d.call+'”');
-      if(d.url)L.push('Link: '+d.url);}
-    else {L.push('Bună ziua, domnule Ghioc,','','Doresc o discuție despre consultanță'+(d.topic?(' – '+d.topic):'')+'.');}
+    if(RO){
+      if(d.call){L.push('Bună ziua, domnule Ghioc,','','Doresc o ofertă de consultanță pentru apelul de finanțare:','„'+d.call+'”');if(d.url)L.push('Link: '+d.url);}
+      else L.push('Bună ziua, domnule Ghioc,','','Doresc o discuție despre consultanță'+(d.topic?(' – '+d.topic):'')+'.');
+    } else {
+      if(d.call){L.push('Hello Mr Ghioc,','','I would like a consulting quote for this funding call:','"'+d.call+'"');if(d.url)L.push('Link: '+d.url);}
+      else L.push('Hello Mr Ghioc,','','I would like to discuss consulting'+(d.topic?(' – '+d.topic):'')+'.');
+    }
     L.push('');
-    if(d.name)L.push('Nume: '+d.name);
-    if(d.company)L.push('Companie / instituție: '+d.company);
-    if(d.phone)L.push('Telefon: '+d.phone);
-    if(d.msg)L.push('','Detalii: '+d.msg);
-    L.push('','(mesaj trimis de pe innoviovc.com)');
+    if(d.name)L.push((RO?'Nume: ':'Name: ')+d.name);
+    if(d.company)L.push((RO?'Companie / instituție: ':'Company: ')+d.company);
+    if(d.phone)L.push((RO?'Telefon: ':'Phone: ')+d.phone);
+    if(d.msg)L.push('',(RO?'Detalii: ':'Details: ')+d.msg);
+    L.push('','('+(RO?'mesaj trimis de pe ':'sent from ')+'innoviovc.com)');
     return L.join('\n');
   }
-  function mailto(d){var s=d.call?('Cerere ofertă – '+d.call.slice(0,90)):('Cerere consultanță'+(d.topic?(' – '+d.topic):''));
+  function mailto(d){var s=d.call?((RO?'Cerere ofertă – ':'Quote request – ')+d.call.slice(0,90)):((RO?'Cerere consultanță':'Consulting request')+(d.topic?(' – '+d.topic):''));
     return 'mailto:'+EMAIL+'?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(buildMsg(d))}
   function wa(d){return 'https://wa.me/'+WA+'?text='+encodeURIComponent(buildMsg(d))}
   window.INNOVIO={mailto:mailto,wa:wa};
