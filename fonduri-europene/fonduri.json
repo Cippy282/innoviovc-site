@@ -1,0 +1,340 @@
+{
+ "updated": "2026-11-22T01:06:33+02:00",
+ "count": 20,
+ "calls": [
+  {
+   "title": "PRNV/2026/131.I/1 – Sprijin pentru dezvoltarea de tehnologii strategice pentru Europa – STEP",
+   "url": "https://oportunitati-ue.gov.ro/apel/prnv-2026-131-i-1-sprijin-pentru-dezvoltarea-de-tehnologii-strategice-pentru-europa-step/",
+   "program": "Programe Regionale / Programul Regional Nord-Vest",
+   "status": "Activ",
+   "opened": "20 noiembrie 2026",
+   "deadline": "",
+   "budget": "43.472.936,34 RON",
+   "type": "",
+   "deadline_ts": null,
+   "opened_ts": 1795211940.0,
+   "cats": [
+    "imm"
+   ],
+   "domestic": true
+  },
+  {
+   "title": "PR/NE/2026/P1/RSO1.1/3/3 -VINNOVATE",
+   "url": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p1-rso1-1-3-3-vinnovate/",
+   "program": "Programe Regionale / Programul Regional Nord-Est",
+   "status": "Activ",
+   "opened": "20 noiembrie 2026",
+   "deadline": "",
+   "budget": "6.022.057,87 RON",
+   "type": "",
+   "deadline_ts": null,
+   "opened_ts": 1795211940.0,
+   "cats": [
+    "imm"
+   ],
+   "domestic": true
+  },
+  {
+   "title": "PR/NE/2026/P1/RSO1.3/1/5 – Instrumente Financiare pentru construcția, extinderea parcurilor industriale",
+   "url": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p1-rso1-3-1-5-instrumente-financiare-pentru-constructia-extinderea-parcurilor-industriale/",
+   "program": "Programe Regionale / Programul Regional Nord-Est",
+   "status": "Activ",
+   "opened": "19 noiembrie 2026",
+   "deadline": "",
+   "budget": "267.205.000 RON",
+   "type": "",
+   "deadline_ts": null,
+   "opened_ts": 1795125540.0,
+   "cats": [
+    "imm"
+   ],
+   "domestic": true
+  },
+  {
+   "title": "PRIMII: Program pentru Reușita Învățământului Primar prin Măsuri Integrate de Intervenție",
+   "url": "https://oportunitati-ue.gov.ro/apel/primii-program-pentru-reusita-invatamantului-primar-prin-masuri-integrate-de-interventie-2/",
+   "program": "Programul Educație și Ocupare",
+   "status": "Activ",
+   "opened": "19 noiembrie 2026",
+   "deadline": "",
+   "budget": "1.257.728.815,35 RON",
+   "type": "",
+   "deadline_ts": null,
+   "opened_ts": 1795125540.0,
+   "cats": [
+    "educatie",
+    "social"
+   ],
+   "domestic": true
+  },
+  {
+   "title": "Grantul NCC-IS pentru securitate cibernetică (FSTP)",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14881",
+   "program": "Programul Europa Digitală",
+   "status": "Activ",
+   "opened": "01 octombrie 2026",
+   "deadline": "01 decembrie 2026 19:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1796144400.0,
+   "opened_ts": 1790888340.0,
+   "cats": [
+    "digital"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "Apel programul SME Eco-Tech",
+   "url": "https://oportunitati-ue.gov.ro/apel/programul-sme-eco-tech/",
+   "program": "Programul pentru consolidarea IMM-urilor prin acces îmbunătățit la finanțare – SME Eco-Tech / Programul de cooperare elvețiano-român",
+   "status": "Activ",
+   "opened": "",
+   "deadline": "",
+   "budget": "288.843.072 RON",
+   "type": "",
+   "deadline_ts": null,
+   "opened_ts": null,
+   "cats": [
+    "imm",
+    "energie"
+   ],
+   "domestic": true
+  },
+  {
+   "title": "Înțelegerea, modelarea și oprirea transmisiei AMR",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17002",
+   "program": "Pilonul III – O Europă inovatoare",
+   "status": "Activ",
+   "opened": "18 noiembrie 2026",
+   "deadline": "01 februarie 2027 15:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1801486800.0,
+   "opened_ts": 1795039140.0,
+   "cats": [
+    "sanatate",
+    "cercetare"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "AGROBOOST Open Call 1 (AGROBOOST-OC1)",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17481",
+   "program": "Pilonul III – O Europă inovatoare",
+   "status": "Activ",
+   "opened": "18 noiembrie 2026",
+   "deadline": "25 ianuarie 2027 19:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1800896400.0,
+   "opened_ts": 1795039140.0,
+   "cats": [
+    "energie",
+    "cercetare"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "Ghidul Solicitantului „Servicii de îngrijire la domiciliu pentru persoanele vârstnice” – ITI Microregiunea Țara Făgărașului – relansare 2026",
+   "url": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-la-domiciliu-pentru-persoanele-varstnice-iti-microregiunea-tara-fagarasului-relansare-2026/",
+   "program": "Programul Incluziune și Demnitate Socială",
+   "status": "Activ",
+   "opened": "16 noiembrie 2026",
+   "deadline": "",
+   "budget": "107.268,75 EUR",
+   "type": "",
+   "deadline_ts": null,
+   "opened_ts": 1794866340.0,
+   "cats": [
+    "sanatate",
+    "social",
+    "public"
+   ],
+   "domestic": true
+  },
+  {
+   "title": "Apel deschis FARM360TECH pentru IMM-uri inovatoare din domeniul agrotechnologiei",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17461",
+   "program": "Programul Instrumentul de investiţii interregionale",
+   "status": "Activ",
+   "opened": "17 noiembrie 2026",
+   "deadline": "29 ianuarie 2027 19:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1801242000.0,
+   "opened_ts": 1794952740.0,
+   "cats": [
+    "imm",
+    "energie"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "EIC STEP Scale Up",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2027-step",
+   "program": "Pilonul III – O Europă inovatoare",
+   "status": "Activ",
+   "opened": "18 noiembrie 2026",
+   "deadline": "24 noiembrie 2027 02:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1827014400.0,
+   "opened_ts": 1795039140.0,
+   "cats": [
+    "imm",
+    "cercetare"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "Propunere scurtă – EIC Accelerator",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2027-accelerator-01",
+   "program": "Pilonul III – O Europă inovatoare",
+   "status": "Activ",
+   "opened": "10 noiembrie 2026",
+   "deadline": "16 decembrie 2027 02:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1828915200.0,
+   "opened_ts": 1794347940.0,
+   "cats": [
+    "imm",
+    "cercetare"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "Apel pentru startup-uri Seedbed Venture Catalyst",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17239",
+   "program": "Pilonul III – O Europă inovatoare",
+   "status": "Activ",
+   "opened": "06 noiembrie 2026",
+   "deadline": "16 decembrie 2026 14:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1797422400.0,
+   "opened_ts": 1794002340.0,
+   "cats": [
+    "imm",
+    "cercetare"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "BV23B Dezvoltarea cooperării consulare și a programelor de formare",
+   "url": "https://oportunitati-ue.gov.ro/apel/bv23b-dezvoltarea-cooperarii-consulare-si-a-programelor-de-formare/",
+   "program": "Programul Național 2021-2027 Managementul Frontierelor și Vize",
+   "status": "Activ",
+   "opened": "16 noiembrie 2026",
+   "deadline": "",
+   "budget": "450.000 RON",
+   "type": "",
+   "deadline_ts": null,
+   "opened_ts": 1794866340.0,
+   "cats": [
+    "educatie",
+    "public"
+   ],
+   "domestic": true
+  },
+  {
+   "title": "Terapie celulară și genică pentru medicină personalizată (CGT4PM2027)",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17044",
+   "program": "Pilonul III – O Europă inovatoare",
+   "status": "Activ",
+   "opened": "04 noiembrie 2026",
+   "deadline": "20 ianuarie 2027 16:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1800453600.0,
+   "opened_ts": 1793829540.0,
+   "cats": [
+    "sanatate",
+    "cercetare"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "Centre cibernetice naționale",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-natch",
+   "program": "Programul Europa Digitală",
+   "status": "Activ",
+   "opened": "15 octombrie 2026",
+   "deadline": "16 martie 2027 02:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1805155200.0,
+   "opened_ts": 1792097940.0,
+   "cats": [
+    "digital"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "Grant pentru demonstrarea conceptului",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erc-2027-poc",
+   "program": "Pilonul III – O Europă inovatoare",
+   "status": "Activ",
+   "opened": "12 noiembrie 2026",
+   "deadline": "10 martie 2027 02:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1804636800.0,
+   "opened_ts": 1794520740.0,
+   "cats": [
+    "cercetare"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "Masterate comune Erasmus Mundus",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-pex-emjm-mob",
+   "program": "Tineret / Educație și formare / Acțiunile Jean Monnet / Programul Erasmus+",
+   "status": "Activ",
+   "opened": "19 noiembrie 2026",
+   "deadline": "16 februarie 2027 02:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1802736000.0,
+   "opened_ts": 1795125540.0,
+   "cats": [
+    "educatie",
+    "social"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "APELUL NR. 2 AL EUROCLUSTERULUI RENEW-BOOSTER PENTRU SPRIJIN FINANCIAR PENTRU TERȚI",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16041",
+   "program": "Programul Piaţa Unică",
+   "status": "Activ",
+   "opened": "28 septembrie 2026",
+   "deadline": "30 noiembrie 2026 19:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1796058000.0,
+   "opened_ts": 1790629140.0,
+   "cats": [
+    "imm"
+   ],
+   "domestic": false
+  },
+  {
+   "title": "Fundamente pentru un patrimoniu cultural rezistent la schimbările climatice",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17181",
+   "program": "Pilonul III – O Europă inovatoare",
+   "status": "Activ",
+   "opened": "04 noiembrie 2026",
+   "deadline": "11 ianuarie 2027 17:00",
+   "budget": "",
+   "type": "",
+   "deadline_ts": 1799679600.0,
+   "opened_ts": 1793829540.0,
+   "cats": [
+    "energie",
+    "cercetare"
+   ],
+   "domestic": false
+  }
+ ]
+}
