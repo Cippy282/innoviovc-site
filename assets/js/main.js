@@ -1,6 +1,6 @@
 /* INNOVIO VC — site interactions (no cookies, no trackers) */
 (function(){
-  var EMAIL='__SITE_EMAIL__', WA='40724393484';
+  var EMAIL='ciprian.ghioc@innoviovc.com', WA='40724393484';
   function $(s,c){return (c||document).querySelector(s)}
   function $$(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))}
 
