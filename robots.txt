@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /robot/
+
+Sitemap: https://www.innoviovc.com/sitemap.xml
