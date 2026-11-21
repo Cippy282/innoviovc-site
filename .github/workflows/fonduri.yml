@@ -1,0 +1,50 @@
+name: Fonduri europene – actualizare zilnica
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # zilnic 06:15 ora Romaniei (iarna) / 07:15 (vara)
+  workflow_dispatch:        # rulare manuala: Actions -> Run workflow
+  push:
+  
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fonduri
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Adresa de email din variabila SITE_EMAIL (Settings -> Secrets and variables -> Actions -> Variables)
+        env:
+          SITE_EMAIL: ${{ vars.SITE_EMAIL }}
+        run: |
+          if [ -n "$SITE_EMAIL" ]; then
+            grep -rl "__SITE_EMAIL__" --include="*.html" --include="*.js" --include="*.vcf" . | xargs -r sed -i "s|__SITE_EMAIL__|$SITE_EMAIL|g"
+          else
+            echo "Variabila SITE_EMAIL nu este setata inca."
+          fi
+
+      - name: Preia apelurile active de pe oportunitati-ue.gov.ro
+        env:
+          SITE_EMAIL: ${{ vars.SITE_EMAIL }}
+        continue-on-error: true
+        run: python robot/fonduri_robot.py
+
+      - name: Publica modificarile
+        run: |
+          rm -f robot/*.tmp fonduri-europene/*.tmp
+          git config user.name "innovio-robot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nimic nou."; else git commit -m "Actualizare fonduri europene $(date -u +%F)" && git push; fi
