@@ -308,3 +308,13 @@ img{max-width:100%}
 }
 @media (hover:none){.card:hover,.call:hover{transform:none}}
 @media (min-width:821px){.hero .wrap{padding-top:44px}.hex-deco.tl{top:14px;width:130px;opacity:.6}}
+/* send status / fallback */
+.send-status:empty{display:none}
+.send-status{margin-top:4px;border-radius:12px;padding:12px 14px;font-size:.92rem}
+.send-status p{margin:0 0 8px}.send-status p:last-child{margin-bottom:0}
+.send-status.ok{background:#E8F7EE;color:#11643A;border:1px solid #BFE6CF}
+.send-status.warn{background:#FFF6E8;color:#7A4B00;border:1px solid #F3D9A8}
+.send-status .fb-btns{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0}
+.send-status .fb-addr{font-weight:500;word-break:break-all}
+.lead-form button[disabled]{opacity:.7;cursor:wait}
+.call-name[hidden]{display:none}
