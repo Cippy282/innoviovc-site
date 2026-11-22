@@ -2,6 +2,8 @@
 <html lang="zh-Hans">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formsubmit.co; form-action 'self' https://formsubmit.co; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>获取国际风险投资与私募股权融资 | INNOVIO VC – Ciprian Ghioc</title>
 <meta name="description" content="我们帮助罗马尼亚及中东欧企业获得风险投资和私募股权融资：融资策略、路演材料、财务模型、数据室、匹配国际投资者及条款清单谈判，并可结合欧盟补助进行混合融资。">
@@ -18,8 +20,7 @@
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#002A7E">
 <link rel="icon" href="../favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="192x192" href="../assets/img/icon-192.png">
 <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png"><link rel="manifest" href="../site.webmanifest">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&amp;display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/outfit-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Service", "name": "风险投资与私募股权", "description": "我们帮助罗马尼亚及中东欧企业获得风险投资和私募股权融资：融资策略、路演材料、财务模型、数据室、匹配国际投资者及条款清单谈判，并可结合欧盟补助进行混合融资。", "provider": {"@id": "https://www.innoviovc.com/#org"}, "areaServed": ["RO", "EU"], "url": "https://www.innoviovc.com/zh/venture-capital.html", "inLanguage": "zh-Hans"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "INNOVIO VC", "item": "https://www.innoviovc.com/zh/"}, {"@type": "ListItem", "position": 2, "name": "风险投资与私募股权", "item": "https://www.innoviovc.com/zh/venture-capital.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "企业需要多大规模？", "acceptedAnswer": {"@type": "Answer", "text": "我们既服务首轮融资的初创企业，也服务寻求私募股权的成熟企业。关键在于增长潜力和团队质量。"}}, {"@type": "Question", "name": "可以把投资与欧盟资金结合吗？", "acceptedAnswer": {"@type": "Answer", "text": "可以。混合融资是我们的专长之一：欧盟补助和金融工具可以减少所需的股权融资，从而降低稀释。"}}, {"@type": "Question", "name": "你们保证获得投资吗？", "acceptedAnswer": {"@type": "Answer", "text": "不保证。投资决定由投资者作出。我们通过严谨的准备、合适的投资者名单和结构清晰的谈判来提高成功率。"}}]}]}</script>
 </head>
@@ -57,9 +58,9 @@
   <div class="cols">
    <div><span class="logo-card"><img src="../assets/img/innovio-vc-logo-480.webp" width="200" height="36" alt="INNOVIO VC" loading="lazy"></span>
     <p><strong style="color:#fff;font-weight:500">INNOVIO VC S.R.L.</strong><br>战略咨询：欧盟资金、复苏计划、政府采购、数字化转型、能源、医疗、教育与风险投资。</p><p style="font-style:italic;color:#C9B48E">Vision Crafting, Value Creating</p></div>
-   <div><h4>导航</h4><ul><li><a href="../zh/#despre">关于 Ciprian Ghioc</a></li><li><a href="../zh/#servicii">咨询服务</a></li><li><a href="../fonduri-europene/">开放资金项目（罗语）</a></li><li><a href="../zh/venture-capital.html">风险投资与私募股权</a></li><li><a href="../zh/due-diligence.html">财务尽职调查</a></li><li><a href="../zh/#intrebari">常见问题</a></li><li><a href="../politica-de-confidentialitate/">隐私政策（罗语）</a></li></ul></div>
-   <div><h4>联系方式</h4><ul><li><a href="tel:+40724393484">+40 724 393 484</a></li><li><a href="https://wa.me/40724393484?text=Hello%20Mr%20Ghioc%2C%20I%20am%20interested%20in%20investing%20in%20Romania%20with%20EU%20funding%20(innoviovc.com%2Fzh)" rel="noopener" target="_blank">WhatsApp</a></li><li><a href="mailto:ciprian.ghioc@innoviovc.com">ciprian.ghioc@innoviovc.com</a></li><li><a href="https://www.linkedin.com/in/ciprian-constantin-ghioc-409647b0" rel="noopener" target="_blank">LinkedIn</a></li><li><a href="https://dixid.cards/cippy282-dl3j" rel="noopener" target="_blank">电子名片</a></li><li><a href="../ciprian-ghioc.vcf" download>保存联系人（vCard）</a></li></ul></div>
-   <div><h4>公司信息</h4><ul><li>CUI 47533824</li><li>J2023001587406</li><li>罗马尼亚 伊尔福夫县 科尔贝安卡乡 奥斯特拉图村 Intrarea Pescărușului 5 号</li></ul></div>
+   <div><h2 class="fh">导航</h2><ul><li><a href="../zh/#despre">关于 Ciprian Ghioc</a></li><li><a href="../zh/#servicii">咨询服务</a></li><li><a href="../fonduri-europene/">开放资金项目（罗语）</a></li><li><a href="../zh/venture-capital.html">风险投资与私募股权</a></li><li><a href="../zh/due-diligence.html">财务尽职调查</a></li><li><a href="../zh/#intrebari">常见问题</a></li><li><a href="../politica-de-confidentialitate/">隐私政策（罗语）</a></li></ul></div>
+   <div><h2 class="fh">联系方式</h2><ul><li><a href="tel:+40724393484">+40 724 393 484</a></li><li><a href="https://wa.me/40724393484?text=Hello%20Mr%20Ghioc%2C%20I%20am%20interested%20in%20investing%20in%20Romania%20with%20EU%20funding%20(innoviovc.com%2Fzh)" rel="noopener" target="_blank">WhatsApp</a></li><li><a href="mailto:ciprian.ghioc@innoviovc.com">ciprian.ghioc@innoviovc.com</a></li><li><a href="https://www.linkedin.com/in/ciprian-constantin-ghioc-409647b0" rel="noopener" target="_blank">LinkedIn</a></li><li><a href="https://dixid.cards/cippy282-dl3j" rel="noopener" target="_blank">电子名片</a></li><li><a href="../ciprian-ghioc.vcf" download>保存联系人（vCard）</a></li></ul></div>
+   <div><h2 class="fh">公司信息</h2><ul><li>CUI 47533824</li><li>J2023001587406</li><li>罗马尼亚 伊尔福夫县 科尔贝安卡乡 奥斯特拉图村 Intrarea Pescărușului 5 号</li></ul></div>
   </div>
   <div class="legal"><span>© <span data-year>2026</span> INNOVIO VC S.R.L. 版权所有。</span><span>Ciprian Constantin Ghioc – 罗马尼亚欧盟资金顾问 · 布加勒斯特</span></div>
  </div>
@@ -67,18 +68,18 @@
 <div class="contact-bar" role="complementary" aria-label="Contact">
  <a class="cb-phone" href="tel:+40724393484" aria-label="电话: +40 724 393 484"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>电话</span></a>
  <a class="cb-wa" href="https://wa.me/40724393484?text=Hello%20Mr%20Ghioc%2C%20I%20am%20interested%20in%20investing%20in%20Romania%20with%20EU%20funding%20(innoviovc.com%2Fzh)" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.3A11.8 11.8 0 0 0 1.7 17.8L0 24l6.3-1.7A11.8 11.8 0 0 0 24 12c0-3.2-1.2-6.2-3.5-8.5z"/></svg><span>WhatsApp</span></a>
- <a class="cb-mail" href="mailto:ciprian.ghioc@innoviovc.com?subject=Consulting%20request%20(innoviovc.com%2Fzh)" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><span>邮件</span></a>
+ <a class="cb-mail" href="mailto:ciprian.ghioc@innoviovc.com?subject=Consulting%20request%20(innoviovc.com%2Fzh)" aria-label="邮件 Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><span>邮件</span></a>
  <a class="cb-qr" href="https://wa.me/40724393484?text=Hello%20Mr%20Ghioc%2C%20I%20am%20interested%20in%20investing%20in%20Romania%20with%20EU%20funding%20(innoviovc.com%2Fzh)" target="_blank" rel="noopener" aria-label="QR WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM20 14v.01M17 20h4v1M14 20v1"/></svg><span class="pop"><img src="../assets/img/qr-whatsapp-ciprian-ghioc.png" width="146" height="146" alt="QR WhatsApp" loading="lazy">扫码 WhatsApp</span></a>
 </div>
 <div class="modal" id="apply-modal" aria-hidden="true" role="dialog" aria-labelledby="apply-title">
  <div class="modal-box"><button class="modal-close" aria-label="×">×</button>
   <h3 id="apply-title">立即申请 – 获取咨询报价</h3><div class="call-name"></div>
-  <form class="lead-form" style="box-shadow:none;padding:0" onsubmit="return false">
+  <form class="lead-form" style="box-shadow:none;padding:0">
    <div class="row2"><label>姓名<input name="a_name" autocomplete="name"></label><label>电话<input name="a_phone" autocomplete="tel"></label></div>
    <label>公司 / 机构<input name="a_company" autocomplete="organization"></label>
    <label>项目详情（可选）<textarea name="a_msg" placeholder="例如：行业、预计投资额、地区"></textarea></label>
    <div class="btns"><button type="button" class="btn btn-primary" data-send="email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg> 通过邮件发送</button><button type="button" class="btn btn-wa" data-send="wa"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.3A11.8 11.8 0 0 0 1.7 17.8L0 24l6.3-1.7A11.8 11.8 0 0 0 24 12c0-3.2-1.2-6.2-3.5-8.5z"/></svg> 通过 WhatsApp 发送</button></div>
-   <p class="note">消息将在您的邮件应用或 WhatsApp 中预先填好后打开。本网站不存储数据。</p>
+   <p class="note">“通过电子邮件发送”会经由 FormSubmit 服务将消息直接发送给我们；WhatsApp 将打开并预先填好消息。本网站不使用 Cookie，也不存储数据。<a href="/politica-de-confidentialitate/">隐私说明（罗马尼亚语）</a></p>
   </form></div>
 </div>
 <script src="../assets/js/main.js" defer></script>
