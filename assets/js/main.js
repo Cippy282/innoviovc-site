@@ -2,7 +2,7 @@
    Email: messages are sent directly from the site (FormSubmit, no visitor mail app needed),
    with fallbacks: mail app, Gmail, Outlook web, copy. */
 (function(){
-  var EMAIL='__SITE_EMAIL__', WA='40724393484';
+  var EMAIL='ciprian.ghioc@innoviovc.com', WA='40724393484';
   var ENDPOINT='https://formsubmit.co/ajax/'+EMAIL;
   function $(s,c){return (c||document).querySelector(s)}
   function $$(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))}
