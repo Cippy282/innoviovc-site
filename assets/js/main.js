@@ -101,6 +101,7 @@
     if(btn){btn.disabled=true;btn.textContent=T.sending}
     box.className='send-status';box.innerHTML='';
     var payload={_subject:subj(d),_template:'table',_captcha:'false',Nume:d.name,Telefon:d.phone||'',Email:d.email||'',Companie:d.company||'',Domeniu:d.topic||'',Apel:d.call||'',Link:d.url||'',Mesaj:d.msg||'',_honey:'',Pagina:location.origin+location.pathname,Limba:LANG};
+    payload._cc='cippy282@gmail.com';  // copie de rezervă (filtrul Microsoft 365 poate reține mesajele)
     if(d.email)payload._replyto=d.email;
     var ctrl=('AbortController' in window)?new AbortController():null; var tm=setTimeout(function(){ctrl&&ctrl.abort()},15000);
     fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload),signal:ctrl?ctrl.signal:undefined})
