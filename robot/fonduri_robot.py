@@ -19,11 +19,26 @@ TZ = ZoneInfo("Europe/Bucharest")
 CFG = {
     "source_list": "https://oportunitati-ue.gov.ro/apeluri/?_sfm_status=activ&sf_paged={}",
     "max_pages": 45, "delay": 0.7, "min_items": 8, "teaser_count": 6,
-    "email": os.environ.get("SITE_EMAIL", "").strip() or "__SITE_EMAIL__",
+    "email": os.environ.get("SITE_EMAIL", "").strip(),  # gol => se preia adresa din mailto-ul paginii index.html (sursă unică)
     "whatsapp": "40724393484", "site_url": "https://www.innoviovc.com",
 }
+if not CFG["email"]:
+    try:
+        _m = re.search(r'href="mailto:([^"?]+@[^"?]+)', open(os.path.join(ROOT, "index.html"), encoding="utf-8").read())
+        CFG["email"] = _m.group(1) if _m else ""
+    except OSError:
+        pass
 UA = "Mozilla/5.0 (compatible; INNOVIOVC-FundingBot/1.0; +https://www.innoviovc.com)"
 
+def norm_url(u):
+    """Cheie de deduplicare: schemă+host lowercase, fără parametri de tracking, fragment sau slash final."""
+    try:
+        pu = urllib.parse.urlsplit((u or "").strip())
+        q = [(k, v) for k, v in urllib.parse.parse_qsl(pu.query) if not k.lower().startswith(("utm_", "fbclid", "gclid"))]
+        return urllib.parse.urlunsplit((pu.scheme.lower() or "https", pu.netloc.lower(), pu.path.rstrip("/") or "/", urllib.parse.urlencode(q), ""))
+    except Exception:
+        return (u or "").strip().lower()
+def iso(ts): return datetime.datetime.fromtimestamp(ts, TZ).isoformat(timespec="minutes") if ts else None
 def log(m): print(f"[{datetime.datetime.now(TZ):%Y-%m-%d %H:%M:%S}] {m}", flush=True)
 def clean(s): return re.sub(r"\s+", " ", html.unescape(s or "")).strip()
 def h(s): return html.escape(s or "", quote=True)
@@ -131,21 +146,22 @@ def card(c, teaser=False):
     days = int((c["deadline_ts"] - time.time()) // 86400) if c["deadline_ts"] else None
     urgent = days is not None and days <= 14
     tag = ("Termen: " + ("azi" if days <= 0 else "mâine" if days == 1 else f"{days} zile")) if urgent else tag_for(c)
-    msg = f"Bună ziua, domnule Ghioc,\n\nDoresc o ofertă de consultanță pentru apelul de finanțare:\n„{title}”\nLink: {c['url']}\n\n(mesaj trimis de pe innoviovc.com)"
+    msg = f"Bună ziua, doresc o ofertă de consultanță pentru apelul „{cut(title, 120)}” {c['url']}"
     q = urllib.parse.quote
-    mailto = f"mailto:{E}?subject={q('Cerere ofertă – ' + cut(title, 90))}&body={q(msg)}"
-    wa = f"https://wa.me/{WA}?text={q(msg)}"
+    mailto = f"mailto:{E}"            # JS deschide formularul cu apelul pre-completat (titlu + link oficial)
+    wa = f"https://wa.me/{WA}"         # JS adaugă mesajul cu titlul și linkul apelului la click
     dl = ""
     if c["program"]: dl += f"<dt>Program</dt><dd>{h(cut(c['program'], 90))}</dd>"
-    if c["opened"]: dl += f"<dt>Deschis</dt><dd>{h(c['opened'])}</dd>"
-    if c["deadline"]: dl += f"<dt>Termen</dt><dd>{h(c['deadline'])}</dd>"
+    if c["opened"]: dl += f"<dt>Data deschiderii</dt><dd>{h(c['opened'])}</dd>"
+    if c["deadline"]: dl += f"<dt>Termen limită depunere</dt><dd>{h(c['deadline'])}</dd>"
+    else: dl += "<dt>Termen limită depunere</dt><dd>nespecificat pe sursă – verificați ghidul oficial</dd>"
     if c["budget"]: dl += f"<dt>Buget</dt><dd>{h(c['budget'])}</dd>"
     src = "Detalii oficiale" if c["domestic"] else "Portal Comisia Europeană"
     hl = "h3" if teaser else "h2"
     return (f'<article class="call" data-cat="{h(" ".join(c["cats"]))}"><span class="tag{" urgent" if urgent else ""}">{h(tag)}</span>'
-            f'<{hl} style="font-size:1.02rem;line-height:1.35;margin-bottom:10px;font-weight:500"><a href="{h(c["url"])}" target="_blank" rel="noopener nofollow">{h(title)}</a></{hl}>'
-            f'<dl>{dl}</dl><div class="actions"><a class="btn btn-primary btn-sm" href="{h(mailto)}" data-apply data-call="{h(title)}" data-url="{h(c["url"])}">Aplică acum</a>'
-            f'<a class="btn btn-wa btn-sm" href="{h(wa)}" target="_blank" rel="noopener" aria-label="Cere ofertă pe WhatsApp pentru acest apel">WhatsApp</a>'
+            f'<{hl} class="call-t"><a href="{h(c["url"])}" target="_blank" rel="noopener nofollow">{h(title)}</a></{hl}>'
+            f'<dl>{dl}</dl><div class="actions"><a class="btn btn-primary btn-sm" href="{h(mailto)}" data-apply data-call="{h(title)}">Aplică acum</a>'
+            f'<a class="btn btn-wa btn-sm" href="{h(wa)}" data-wa-call target="_blank" rel="noopener" aria-label="Cere ofertă pe WhatsApp pentru acest apel">WhatsApp</a>'
             f'<a class="src" href="{h(c["url"])}" target="_blank" rel="noopener nofollow">{src} ↗</a></div></article>')
 
 def write(path, data):
@@ -155,7 +171,12 @@ def write(path, data):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--seed"); ap.add_argument("--source-file"); ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    if a.seed: items = json.load(open(a.seed, encoding="utf-8")); log(f"Mod seed: {len(items)} apeluri")
+    fetched_at = None
+    if a.seed:
+        items = json.load(open(a.seed, encoding="utf-8"))
+        if isinstance(items, dict):  # feed.json încărcat de agentul zilnic: {"fetchedAt": ISO, "pages": n, "calls": [...]}
+            fetched_at = items.get("fetchedAt"); items = items.get("calls", [])
+        log(f"Mod seed: {len(items)} apeluri (preluate: {fetched_at or 'necunoscut'})")
     elif a.source_file: items = parse_list(open(a.source_file, encoding="utf-8").read()); log(f"Mod fișier: {len(items)} apeluri")
     else:
         items, first = [], None
@@ -168,34 +189,52 @@ def main():
             if p == 1: first = got[0]["url"]
             items += got; time.sleep(CFG["delay"])
         log(f"Preluate de pe sursă: {len(items)} apeluri")
+        feed = os.path.join(ROOT, "robot", "feed.json")
+        if not items and os.path.exists(feed):
+            # Portalul blochează serverele GitHub: folosim feed-ul încărcat de agentul zilnic, doar dacă e proaspăt (< 72 h)
+            try:
+                fd = json.load(open(feed, encoding="utf-8"))
+                age = time.time() - datetime.datetime.fromisoformat(fd["fetchedAt"].replace("Z", "+00:00")).timestamp()
+                if age < 72 * 3600:
+                    items, fetched_at = fd.get("calls", []), fd["fetchedAt"]; log(f"Folosesc robot/feed.json ({len(items)} apeluri, vechime {age/3600:.1f} h)")
+                else:
+                    log(f"ALERTĂ: robot/feed.json are {age/3600:.0f} h – date expirate, păstrez pagina existentă.")
+            except (ValueError, KeyError, OSError) as e:
+                log(f"robot/feed.json invalid: {e}")
 
     now, seen, calls = time.time(), set(), []
     for c in items:
-        k = c["url"] + "|" + c["title"]
+        if not c.get("url") or not c.get("title"): continue
+        k = norm_url(c["url"])
         if k in seen: continue
         seen.add(k)
-        if c.get("status") and "activ" not in c["status"].lower(): continue
+        if c.get("status") and c["status"].strip().lower() not in ("activ", "active", "deschis"): continue  # atenție: „Inactiv” conține „activ”
         dl = ro_date(c["deadline"]) if c.get("deadline") else None
         if dl is not None and dl < now: continue
         c["deadline_ts"] = dl; c["opened_ts"] = ro_date(c["opened"]) if c.get("opened") else None
         c["cats"] = categorize(c); c["domestic"] = "oportunitati-ue.gov.ro" in c["url"]
+        c["id"] = k
         calls.append(c)
     if len(calls) < CFG["min_items"]:
         log(f"Prea puține apeluri valide ({len(calls)}) – păstrez pagina existentă."); return 0
 
     luni = ["", "ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"]
-    d = datetime.datetime.now(TZ); updated = f"{d.day} {luni[d.month]} {d.year}, ora {d:%H:%M}"; iso = d.isoformat(timespec="seconds")
+    d = datetime.datetime.now(TZ)
+    if fetched_at:
+        try: d = datetime.datetime.fromisoformat(fetched_at.replace("Z", "+00:00")).astimezone(TZ)
+        except ValueError: pass
+    updated = f"{d.day} {luni[d.month]} {d.year}, ora {d:%H:%M}"; iso_now = d.isoformat(timespec="seconds")
     S = CFG["site_url"]
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "@id": S + "/fonduri-europene/#page", "url": S + "/fonduri-europene/", "name": "Fonduri europene active acum – apeluri de finanțare deschise",
-         "inLanguage": "ro-RO", "dateModified": iso, "isPartOf": {"@id": S + "/#website"}, "publisher": {"@id": S + "/#org"},
+         "inLanguage": "ro-RO", "dateModified": iso_now, "isPartOf": {"@id": S + "/#website"}, "publisher": {"@id": S + "/#org"},
          "mainEntity": {"@type": "ItemList", "numberOfItems": len(calls),
             "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": cut(c["title"], 150), "url": c["url"]} for i, c in enumerate(calls[:100])]}},
         {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Acasă", "item": S + "/"},
             {"@type": "ListItem", "position": 2, "name": "Fonduri europene active", "item": S + "/fonduri-europene/"}]}]}
     tpl = open(os.path.join(ROOT, "robot", "template-fonduri.html"), encoding="utf-8").read()
-    page = (tpl.replace("{{COUNT}}", str(len(calls))).replace("{{UPDATED}}", h(updated)).replace("{{UPDATED_ISO}}", iso)
-               .replace("{{JSONLD}}", '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>")
+    page = (tpl.replace("{{COUNT}}", str(len(calls))).replace("{{UPDATED}}", h(updated)).replace("{{UPDATED_ISO}}", iso_now)
+               .replace("{{JSONLD}}", '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026") + "</script>")
                .replace("{{CARDS}}", "\n".join(card(c) for c in calls)))
 
     def score(c): return ((3 if c["domestic"] else 0) + (2 if set(c["cats"]) & {"imm","digital","energie","sanatate","educatie"} else 0) + (1 if c["budget"] else 0), c["opened_ts"] or 0)
@@ -205,7 +244,12 @@ def main():
     if a.dry_run: print(teaser[:2000]); return 0
 
     write("fonduri-europene/index.html", page)
-    write("fonduri-europene/fonduri.json", json.dumps({"updated": iso, "count": len(calls), "calls": calls}, ensure_ascii=False, indent=1))
+    norm = [{"id": c["id"], "title": c["title"], "program": c.get("program", ""), "type": c.get("type", ""), "status": c.get("status", ""),
+             "openingDateRaw": c.get("opened", ""), "openingDate": iso(c["opened_ts"]), "deadlineRaw": c.get("deadline", ""), "deadline": iso(c["deadline_ts"]),
+             "timezone": "Europe/Bucharest", "budgetRaw": c.get("budget", ""), "categories": c["cats"], "officialUrl": c["url"],
+             "source": "oportunitati-ue.gov.ro", "fetchedAt": iso_now} for c in calls]
+    write("fonduri-europene/fonduri.json", json.dumps({"schema": 2, "updated": iso_now, "fetchedAt": iso_now, "source": CFG["source_list"].format(1), "count": len(calls),
+                                                      "note": "Eligibilitatea nu este dedusă; condițiile oficiale sunt în ghidul fiecărui apel.", "calls": norm}, ensure_ascii=False, indent=1))
     idx = os.path.join(ROOT, "index.html")
     s = open(idx, encoding="utf-8").read()
     s2, n = re.subn(r"<!--FONDURI-START-->.*?<!--FONDURI-END-->", lambda m: "<!--FONDURI-START-->\n" + teaser + "\n<!--FONDURI-END-->", s, count=1, flags=re.S)
