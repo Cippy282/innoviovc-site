@@ -20,6 +20,9 @@
   }[LANG]||null;
   if(!T) T={sending:'Sending…',ok:'Thank you! Your message has been sent.',fail:'Choose an option:',app:'Email app',copy:'Copy message',copied:'Copied. Send it to ',need:'Please enter your name and a phone or email.',title:'Send a message',sub:'',emailLbl:'Email (optional)'};
 
+  // honeypot anti-spam field on every lead form (invisible to people)
+  $$('form.lead-form').forEach(function(f){if(!f.querySelector('[name=_honey]')){var h=document.createElement('input');h.type='text';h.name='_honey';h.className='hp';h.tabIndex=-1;h.setAttribute('autocomplete','off');h.setAttribute('aria-hidden','true');f.appendChild(h)}});
+
   // mobile nav
   var t=$('.nav-toggle'), n=$('.nav');
   if(t&&n){t.addEventListener('click',function(){var o=n.classList.toggle('open');t.setAttribute('aria-expanded',o)});
@@ -72,13 +75,32 @@
       if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){prompt('',txt)})}else{prompt('',txt)}
     });
   }
-  function send(form,d,btn){
+  var EMAIL_RE=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/, PHONE_RE=/^[+()\d\s.\-\/]{6,20}$/, lastSend=0;
+  var E={ro:{name:'Introduceți numele.',contact:'Introduceți un telefon sau un email.',email:'Adresa de email nu este validă.',phone:'Numărul de telefon nu este valid.',wait:'Mesajul a fost deja trimis. Așteptați câteva secunde.'},
+         en:{name:'Please enter your name.',contact:'Please enter a phone number or an email.',email:'The email address is not valid.',phone:'The phone number is not valid.',wait:'Message already sent. Please wait a few seconds.'},
+         zh:{name:'请填写姓名。',contact:'请填写电话或电子邮件。',email:'电子邮件地址无效。',phone:'电话号码无效。',wait:'消息已发送，请稍候。'}}[LANG]||null;
+  if(!E)E={name:'Please enter your name.',contact:'Please enter a phone number or an email.',email:'Invalid email.',phone:'Invalid phone.',wait:'Please wait.'};
+  function clearErr(form){$$('[aria-invalid]',form).forEach(function(i){i.removeAttribute('aria-invalid');i.removeAttribute('aria-describedby')});$$('.field-err',form).forEach(function(x){x.remove()})}
+  function markErr(form,name,msg){var el=form.querySelector('[name='+name+']');if(!el)return null;var id='err-'+name+'-'+Math.random().toString(36).slice(2,7);
+    var m=document.createElement('span');m.className='field-err';m.id=id;m.textContent=msg;el.parentNode.appendChild(m);el.setAttribute('aria-invalid','true');el.setAttribute('aria-describedby',id);return el}
+  function validate(form,d,map){clearErr(form);var errs=[],first=null;map=map||{};
+    function e(n,m){errs.push(m);var el=markErr(form,map[n]||n,m);first=first||el}
+    if(!d.name||d.name.length<2)e('name',E.name);
+    if(!d.phone&&!d.email)e('phone',E.contact);
+    if(d.email&&!EMAIL_RE.test(d.email))e('email',E.email);
+    if(d.phone&&!PHONE_RE.test(d.phone))e('phone',E.phone);
+    if(first)first.focus();return errs}
+  function send(form,d,btn,map){
     var box=statusBox(form);
-    if(!d.name||!(d.phone||d.email)){box.className='send-status warn';box.innerHTML='<p>'+T.need+'</p>';return}
+    if(d.honey){box.className='send-status ok';box.innerHTML='<p>'+T.ok+'</p>';return}  // bot trap: silently drop
+    var errs=validate(form,d,map);
+    if(errs.length){box.className='send-status warn';box.innerHTML='<p>'+errs.join(' ')+'</p>';return}
+    if(Date.now()-lastSend<20000){box.className='send-status warn';box.innerHTML='<p>'+E.wait+'</p>';return}
+    d={name:d.name.slice(0,120),company:(d.company||'').slice(0,160),phone:(d.phone||'').slice(0,40),email:(d.email||'').slice(0,160),topic:(d.topic||'').slice(0,120),msg:(d.msg||'').slice(0,3000),call:(d.call||'').slice(0,300),url:(d.url||'').slice(0,500)};
     var old=btn?btn.innerHTML:'';
     if(btn){btn.disabled=true;btn.textContent=T.sending}
     box.className='send-status';box.innerHTML='';
-    var payload={_subject:subj(d),_template:'table',_captcha:'false',Nume:d.name,Telefon:d.phone||'',Email:d.email||'',Companie:d.company||'',Domeniu:d.topic||'',Apel:d.call||'',Link:d.url||'',Mesaj:d.msg||'',Pagina:location.href,Limba:LANG};
+    var payload={_subject:subj(d),_template:'table',_captcha:'false',Nume:d.name,Telefon:d.phone||'',Email:d.email||'',Companie:d.company||'',Domeniu:d.topic||'',Apel:d.call||'',Link:d.url||'',Mesaj:d.msg||'',_honey:'',Pagina:location.origin+location.pathname,Limba:LANG};
     if(d.email)payload._replyto=d.email;
     var ctrl=('AbortController' in window)?new AbortController():null; var tm=setTimeout(function(){ctrl&&ctrl.abort()},15000);
     fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload),signal:ctrl?ctrl.signal:undefined})
@@ -86,40 +108,55 @@
       .then(function(res){
         clearTimeout(tm); if(btn){btn.disabled=false;btn.innerHTML=old}
         var good=res.ok&&(res.j.success===true||res.j.success==='true');
-        if(good){box.className='send-status ok';box.innerHTML='<p>'+T.ok+'</p>';$$('input,textarea',form).forEach(function(i){if(i.type!=='hidden')i.value=''})}
+        if(good){lastSend=Date.now();box.className='send-status ok';box.innerHTML='<p>'+T.ok+'</p>';$$('input,textarea',form).forEach(function(i){if(i.type!=='hidden')i.value=''})}
         else showFallback(box,d);
       })
       .catch(function(){clearTimeout(tm);if(btn){btn.disabled=false;btn.innerHTML=old}showFallback(box,d)});
   }
 
-  // ---- modal (apply / generic email) ----
-  var modal=$('#apply-modal');
+  // ---- modal (apply / generic email): accessible dialog ----
+  var modal=$('#apply-modal'), lastFocus=null;
   if(modal){
     var mform=$('form',modal), cur={};
-    // add optional email field if missing
+    modal.setAttribute('aria-modal','true');
     if(!$('[name=a_email]',modal)){
-      var lab=document.createElement('label');lab.innerHTML=T.emailLbl+'<input name="a_email" type="email" autocomplete="email">';
+      var lab=document.createElement('label');lab.innerHTML=T.emailLbl+'<input name="a_email" type="email" autocomplete="email" inputmode="email">';
       var comp=$('[name=a_company]',modal); comp&&comp.parentNode.parentNode.insertBefore(lab,comp.parentNode.nextSibling);
     }
     var title=$('#apply-title',modal), title0=title?title.textContent:'';
+    function focusables(){return $$('a[href],button:not([disabled]),input:not([type=hidden]):not([tabindex="-1"]),textarea,select',modal).filter(function(el){return el.offsetParent!==null})}
     function openM(call,url){
+      lastFocus=document.activeElement;
       cur={call:call||'',url:url||''};
       var cn=$('.call-name',modal);
       if(call){cn.textContent=call;cn.hidden=false;title.textContent=title0}else{cn.hidden=true;title.textContent=T.title}
       var st=$('.send-status',modal); if(st){st.className='send-status';st.innerHTML=''}
-      modal.classList.add('open');modal.setAttribute('aria-hidden','false');var f=$('input',modal);f&&f.focus()}
-    function closeM(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true')}
+      clearErr(mform);
+      modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
+      var f=$('input[name=a_name]',modal);f&&f.focus()}
+    function closeM(){if(!modal.classList.contains('open'))return;modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.style.overflow='';
+      if(lastFocus&&lastFocus.focus)lastFocus.focus()}
     document.addEventListener('click',function(e){
       var b=e.target.closest('[data-apply]');
-      if(b){e.preventDefault();openM(b.getAttribute('data-call'),b.getAttribute('data-url'));return}
-      // any plain mailto link on the site -> open the send form (works without a mail app)
+      if(b){e.preventDefault();var cl=b.closest('.call'),ta=cl&&cl.querySelector('.call-t a, h2 a, h3 a');openM(b.getAttribute('data-call'),b.getAttribute('data-url')||(ta?ta.href:''));return}
+      var w=e.target.closest('[data-wa-call]');
+      if(w){var c2=w.closest('.call'),t2=c2&&c2.querySelector('.call-t a, h2 a, h3 a');if(t2){e.preventDefault();window.open(wa({call:t2.textContent.trim(),url:t2.href}),'_blank','noopener')}return}
       var m=e.target.closest('a[href^="mailto:"]');
-      if(m&&!m.closest('.send-status')){e.preventDefault();openM('','');return}
+      if(m&&!m.closest('.send-status')&&!m.hasAttribute('data-direct')){e.preventDefault();openM('','');return}
       if(e.target===modal||e.target.closest('.modal-close'))closeM();
     });
-    document.addEventListener('keydown',function(e){if(e.key==='Escape')closeM()});
-    function data(){return {call:cur.call,url:cur.url,name:$('[name=a_name]',modal).value.trim(),company:$('[name=a_company]',modal).value.trim(),phone:$('[name=a_phone]',modal).value.trim(),email:($('[name=a_email]',modal)||{value:''}).value.trim(),msg:$('[name=a_msg]',modal).value.trim()}}
-    $('[data-send=email]',modal).addEventListener('click',function(){send(mform,data(),this)});
+    document.addEventListener('keydown',function(e){
+      if(!modal.classList.contains('open'))return;
+      if(e.key==='Escape'){e.preventDefault();closeM();return}
+      if(e.key==='Tab'){var f=focusables();if(!f.length)return;var first=f[0],last=f[f.length-1];
+        if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}
+        else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}
+        else if(!modal.contains(document.activeElement)){e.preventDefault();first.focus()}}
+    });
+    function data(){return {call:cur.call,url:cur.url,name:$('[name=a_name]',modal).value.trim(),company:$('[name=a_company]',modal).value.trim(),phone:$('[name=a_phone]',modal).value.trim(),email:($('[name=a_email]',modal)||{value:''}).value.trim(),msg:$('[name=a_msg]',modal).value.trim(),honey:($('[name=_honey]',modal)||{value:''}).value}}
+    function mSend(){send(mform,data(),$('[data-send=email]',modal),{name:'a_name',phone:'a_phone',email:'a_email'})}
+    $('[data-send=email]',modal).addEventListener('click',mSend);
+    mform.addEventListener('submit',function(e){e.preventDefault();mSend()});
     $('[data-send=wa]',modal).addEventListener('click',function(){window.open(wa(data()),'_blank','noopener')});
   }
 
@@ -131,20 +168,41 @@
       var c2=lf.querySelector('[name=company]'); c2&&c2.parentNode.parentNode.insertBefore(l2,c2.parentNode.nextSibling);
     }
     function v(n){var el=lf.querySelector('[name='+n+']');return el?el.value.trim():''}
-    function fd(){return {name:v('name'),company:v('company'),phone:v('phone'),email:v('email'),topic:v('topic'),msg:v('msg')}}
-    lf.addEventListener('submit',function(e){e.preventDefault();send(lf,fd(),lf.querySelector('button[type=submit]'))});
+    function fd(){return {name:v('name'),company:v('company'),phone:v('phone'),email:v('email'),topic:v('topic'),msg:v('msg'),honey:v('_honey')}}
+    lf.addEventListener('submit',function(e){e.preventDefault();send(lf,fd(),lf.querySelector('button[type=submit]'),{name:'name',phone:'phone',email:'email'})});
     var wb=lf.querySelector('[data-send=wa]'); wb&&wb.addEventListener('click',function(){window.open(wa(fd()),'_blank','noopener')});
   }
 
-  // ---- funding page: search + filters ----
+  // ---- stale-data notice on the funding page (if the feed is older than 4 days) ----
+  var tUp=$('.updated time[datetime]');
+  if(tUp&&$('#calls')){var age=(Date.now()-Date.parse(tUp.getAttribute('datetime')))/864e5;if(age>4){var w=document.createElement('p');w.className='send-status warn';w.setAttribute('role','status');w.textContent=(RO?'Atenție: lista a fost actualizată acum '+Math.floor(age)+' zile. Verificați termenele pe portalul oficial.':'Note: this list was last updated '+Math.floor(age)+' days ago. Check deadlines on the official portal.');var tb=$('.toolbar');tb&&tb.parentNode.insertBefore(w,tb)}}
+
+  // ---- funding page: search + filters (diacritic-insensitive, combined, accessible) ----
   var list=$('#calls');
   if(list&&$('#call-search')){
     var q=$('#call-search'), active='all', cards=$$('.call',list), cnt=$('#call-count');
-    function apply(){var s=q.value.toLowerCase().trim(),k=0;
-      cards.forEach(function(c){var ok=(active==='all'||(c.getAttribute('data-cat')||'').indexOf(active)>-1)&&(!s||c.textContent.toLowerCase().indexOf(s)>-1);c.hidden=!ok;if(ok)k++});
-      if(cnt)cnt.textContent=k}
-    q.addEventListener('input',apply);
-    $$('.filters button').forEach(function(b){b.addEventListener('click',function(){$$('.filters button').forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');active=b.getAttribute('data-f');apply()})});
-    var h=location.hash.replace('#','');if(h){var fb=$('.filters button[data-f="'+h+'"]');fb&&fb.click()}
+    function norm(x){return (x||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/ş/g,'s').replace(/ţ/g,'t')}
+    cards.forEach(function(c){c._t=norm(c.textContent)});
+    var empty=document.createElement('div');empty.className='calls-empty';empty.hidden=true;empty.setAttribute('role','status');
+    empty.innerHTML='<p>'+(RO?'Niciun apel nu corespunde filtrelor alese.':ZH?'没有符合筛选条件的项目。':'No calls match the selected filters.')+'</p><button type="button" class="btn btn-sm btn-ghost" data-clear>'+(RO?'Resetează filtrele':ZH?'重置筛选':'Clear filters')+'</button>';
+    list.parentNode.insertBefore(empty,list.nextSibling);
+    if(cnt){cnt.setAttribute('aria-live','polite')}
+    var PAGE=30, limit=PAGE;
+    var more=document.createElement('div');more.className='calls-more';more.innerHTML='<button type="button" class="btn btn-ghost"></button>';
+    empty.parentNode.insertBefore(more,empty.nextSibling);var moreBtn=more.firstChild;
+    moreBtn.addEventListener('click',function(){var first=null;limit+=PAGE;apply(true);
+      for(var i=0;i<cards.length;i++){if(!cards[i].hidden&&cards[i]._n===limit-PAGE){first=cards[i];break}}
+      var a=first&&first.querySelector('a');a&&a.focus()});
+    function apply(keep){if(!keep)limit=PAGE;var s=norm(q.value.trim()),terms=s.split(/\s+/).filter(Boolean),k=0;
+      cards.forEach(function(c){var cat=(c.getAttribute('data-cat')||'');var ok=(active==='all'||cat.split(' ').indexOf(active)>-1)&&terms.every(function(t){return c._t.indexOf(t)>-1});
+        c._n=ok?k:-1;c.hidden=!ok||k>=limit;if(ok)k++});
+      var shown=Math.min(k,limit);
+      if(cnt)cnt.textContent=k; empty.hidden=k>0;
+      more.hidden=k<=limit; moreBtn.textContent=(RO?'Arată mai multe':ZH?'显示更多':'Show more')+' ('+(k-shown)+(RO?' rămase)':ZH?' 个剩余)':' remaining)')}
+    function setF(f){active=f;$$('.filters button').forEach(function(x){x.setAttribute('aria-pressed',x.getAttribute('data-f')===f?'true':'false')});apply()}
+    q.addEventListener('input',function(){apply()});
+    $$('.filters button').forEach(function(b){b.addEventListener('click',function(){setF(b.getAttribute('data-f'))})});
+    empty.querySelector('[data-clear]').addEventListener('click',function(){q.value='';setF('all');q.focus()});
+    var h=location.hash.replace('#','');if(h&&$('.filters button[data-f="'+h+'"]'))setF(h);else apply();
   }
 })();
