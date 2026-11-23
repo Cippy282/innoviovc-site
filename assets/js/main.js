@@ -1,9 +1,9 @@
 /* INNOVIO VC — site interactions (no cookies, no trackers)
-   Email: messages are sent directly from the site (FormSubmit, no visitor mail app needed),
+   Email: messages are sent directly from the site (Web3Forms, no visitor mail app needed),
    with fallbacks: mail app, Gmail, Outlook web, copy. */
 (function(){
   var EMAIL='ciprian.ghioc@innoviovc.com', WA='40724393484';
-  var ENDPOINT='https://formsubmit.co/ajax/'+EMAIL;
+  var ENDPOINT='https://api.web3forms.com/submit', W3F_KEY='5444c2c2-7363-4d6c-9645-3379139a4d9b'; // cheie publică Web3Forms (livrare pe Gmail)
   function $(s,c){return (c||document).querySelector(s)}
   function $$(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))}
   var LANG=(document.documentElement.lang||'ro').slice(0,2), RO=LANG==='ro', ZH=LANG==='zh';
@@ -100,9 +100,8 @@
     var old=btn?btn.innerHTML:'';
     if(btn){btn.disabled=true;btn.textContent=T.sending}
     box.className='send-status';box.innerHTML='';
-    var payload={_subject:subj(d),_template:'table',_captcha:'false',Nume:d.name,Telefon:d.phone||'',Email:d.email||'',Companie:d.company||'',Domeniu:d.topic||'',Apel:d.call||'',Link:d.url||'',Mesaj:d.msg||'',_honey:'',Pagina:location.origin+location.pathname,Limba:LANG};
-    payload._cc='cippy282@gmail.com';  // copie de rezervă (filtrul Microsoft 365 poate reține mesajele)
-    if(d.email)payload._replyto=d.email;
+    var payload={access_key:W3F_KEY,subject:subj(d),from_name:'innoviovc.com – '+d.name,botcheck:false,Nume:d.name,Telefon:d.phone||'',Email:d.email||'',Companie:d.company||'',Domeniu:d.topic||'',Apel:d.call||'',Link:d.url||'',Mesaj:d.msg||'',Pagina:location.origin+location.pathname,Limba:LANG};
+    if(d.email)payload.replyto=d.email;
     var ctrl=('AbortController' in window)?new AbortController():null; var tm=setTimeout(function(){ctrl&&ctrl.abort()},15000);
     fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload),signal:ctrl?ctrl.signal:undefined})
       .then(function(r){return r.json().catch(function(){return {}}).then(function(j){return {ok:r.ok,j:j}})})
