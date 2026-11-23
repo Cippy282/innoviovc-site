@@ -182,7 +182,14 @@
   if(list&&$('#call-search')){
     var q=$('#call-search'), active='all', cards=$$('.call',list), cnt=$('#call-count');
     function norm(x){return (x||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/ş/g,'s').replace(/ţ/g,'t')}
-    cards.forEach(function(c){c._t=norm(c.textContent)});
+    cards.forEach(function(c,i){c._t=norm(c.textContent);c._i=i;c._dl=+c.getAttribute('data-dl')||0;c._op=+c.getAttribute('data-op')||0});
+    var sortSel=$('#call-sort');
+    function sortCards(mode){var a=cards.slice();
+      a.sort(function(x,y){
+        if(mode==='dl-asc'||mode==='dl-desc'){if(!x._dl&&!y._dl)return x._i-y._i;if(!x._dl)return 1;if(!y._dl)return -1;return mode==='dl-asc'?x._dl-y._dl:y._dl-x._dl}
+        if(mode==='op-desc'){if(x._op!==y._op)return (y._op||0)-(x._op||0);return x._i-y._i}
+        return x._i-y._i});
+      a.forEach(function(c){list.appendChild(c)});cards=a}
     var empty=document.createElement('div');empty.className='calls-empty';empty.hidden=true;empty.setAttribute('role','status');
     empty.innerHTML='<p>'+(RO?'Niciun apel nu corespunde filtrelor alese.':ZH?'没有符合筛选条件的项目。':'No calls match the selected filters.')+'</p><button type="button" class="btn btn-sm btn-ghost" data-clear>'+(RO?'Resetează filtrele':ZH?'重置筛选':'Clear filters')+'</button>';
     list.parentNode.insertBefore(empty,list.nextSibling);
@@ -201,6 +208,7 @@
       more.hidden=k<=limit; moreBtn.textContent=(RO?'Arată mai multe':ZH?'显示更多':'Show more')+' ('+(k-shown)+(RO?' rămase)':ZH?' 个剩余)':' remaining)')}
     function setF(f){active=f;$$('.filters button').forEach(function(x){x.setAttribute('aria-pressed',x.getAttribute('data-f')===f?'true':'false')});apply()}
     q.addEventListener('input',function(){apply()});
+    if(sortSel)sortSel.addEventListener('change',function(){sortCards(sortSel.value);apply()});
     $$('.filters button').forEach(function(b){b.addEventListener('click',function(){setF(b.getAttribute('data-f'))})});
     empty.querySelector('[data-clear]').addEventListener('click',function(){q.value='';setF('all');q.focus()});
     var h=location.hash.replace('#','');if(h&&$('.filters button[data-f="'+h+'"]'))setF(h);else apply();
