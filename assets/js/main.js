@@ -173,6 +173,9 @@
     var wb=lf.querySelector('[data-send=wa]'); wb&&wb.addEventListener('click',function(){window.open(wa(fd()),'_blank','noopener')});
   }
 
+  // ---- expired calls disappear automatically (deadline passed since the page was generated) ----
+  $$('.call[data-dl]').forEach(function(c){var d=+c.getAttribute('data-dl');if(d&&d*1000<Date.now())c.parentNode.removeChild(c)});
+
   // ---- stale-data notice on the funding page (if the feed is older than 4 days) ----
   var tUp=$('.updated time[datetime]');
   if(tUp&&$('#calls')){var age=(Date.now()-Date.parse(tUp.getAttribute('datetime')))/864e5;if(age>4){var w=document.createElement('p');w.className='send-status warn';w.setAttribute('role','status');w.textContent=(RO?'Atenție: lista a fost actualizată acum '+Math.floor(age)+' zile. Verificați termenele pe portalul oficial.':'Note: this list was last updated '+Math.floor(age)+' days ago. Check deadlines on the official portal.');var tb=$('.toolbar');tb&&tb.parentNode.insertBefore(w,tb)}}
