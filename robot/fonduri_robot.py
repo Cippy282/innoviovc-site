@@ -158,7 +158,7 @@ def card(c, teaser=False):
     if c["budget"]: dl += f"<dt>Buget</dt><dd>{h(c['budget'])}</dd>"
     src = "Detalii oficiale" if c["domestic"] else "Portal Comisia Europeană"
     hl = "h3" if teaser else "h2"
-    return (f'<article class="call" data-cat="{h(" ".join(c["cats"]))}"><span class="tag{" urgent" if urgent else ""}">{h(tag)}</span>'
+    return (f'<article class="call" data-cat="{h(" ".join(c["cats"]))}" data-dl="{int(c["deadline_ts"]) if c["deadline_ts"] else ""}" data-op="{int(c["opened_ts"]) if c["opened_ts"] else ""}"><span class="tag{" urgent" if urgent else ""}">{h(tag)}</span>'
             f'<{hl} class="call-t"><a href="{h(c["url"])}" target="_blank" rel="noopener nofollow">{h(title)}</a></{hl}>'
             f'<dl>{dl}</dl><div class="actions"><a class="btn btn-primary btn-sm" href="{h(mailto)}" data-apply data-call="{h(title)}">Aplică acum</a>'
             f'<a class="btn btn-wa btn-sm" href="{h(wa)}" data-wa-call target="_blank" rel="noopener" aria-label="Cere ofertă pe WhatsApp pentru acest apel">WhatsApp</a>'
