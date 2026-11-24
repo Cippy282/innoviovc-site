@@ -3,7 +3,7 @@
  "updated": "2026-11-23T11:30:23+02:00",
  "fetchedAt": "2026-11-23T11:30:23+02:00",
  "source": "https://oportunitati-ue.gov.ro/apeluri/?_sfm_status=activ&sf_paged=1",
- "count": 396,
+ "count": 389,
  "note": "Eligibilitatea nu este dedusă; condițiile oficiale sunt în ghidul fiecărui apel.",
  "calls": [
   {
@@ -580,25 +580,6 @@
     "cercetare"
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17239",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-23T11:30:23+02:00"
-  },
-  {
-   "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15982",
-   "title": "Sprijin cuprinzător și incluziv pentru femeile și fetele victime ale violenței de gen",
-   "program": "Programul Cetăţeni, Egalitate, Drepturi şi Valori",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "18 septembrie 2026",
-   "openingDate": "2026-09-18T23:59+03:00",
-   "deadlineRaw": "23 noiembrie 2026 17:00",
-   "deadline": "2026-11-23T17:00+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "social"
-   ],
-   "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15982",
    "source": "oportunitati-ue.gov.ro",
    "fetchedAt": "2026-11-23T11:30:23+02:00"
   },
@@ -1268,25 +1249,6 @@
     "digital"
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16761",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-23T11:30:23+02:00"
-  },
-  {
-   "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17045",
-   "title": "Cerere de serviciu: De la zero, nu ați primit nicio notificare. 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯 𝘧𝘰𝘳 𝘳𝘦𝘴𝘪𝘥𝘦𝘯𝘵𝘴 – 𝘦𝘴𝘱𝘦𝘤𝘪𝘢𝘭𝘭𝘺 𝘵𝘩𝘰𝘴𝘦 𝘸𝘩𝘰 𝘥𝘰 𝘯𝘰𝘵 𝘮𝘰𝘣𝘪𝘭𝘦 𝘢𝘱𝘱𝘴𝘵𝘢𝘵 𝘵𝘩𝘢𝘵 𝘵𝘩𝘦𝘺 𝘤𝘢𝘯 𝘳𝘦𝘤𝘪𝘷𝘦 𝘤𝘭𝘦𝘢𝘳, 𝘵𝘪𝘮𝘦𝘭𝘺 𝘨𝘶𝘪𝘥𝘢𝘯𝘤𝘦 𝘣𝘺 𝘱𝘦𝘵𝘪𝘥𝘢𝘯𝘤𝘦 𝘣𝘺 𝘱𝘰 𝘵𝘢𝘵𝘪 𝘵𝘩𝘢𝘵 𝘵𝘩𝘦𝘺 𝘤𝘢𝘵𝘢𝘵 𝘵𝘢𝘵𝘪 𝘷𝘦 𝘤𝘭𝘦𝘪 𝘵𝘢𝘵𝘪 𝘵𝘢𝘵𝘪 𝘵𝘢𝘵𝘪𝘥𝘢𝘯𝘤𝘦 𝘵𝘢𝘵𝘪",
-   "program": "Programul Europa Digitală",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "29 octombrie 2026",
-   "openingDate": "2026-10-29T23:59+02:00",
-   "deadlineRaw": "23 noiembrie 2026 19:00",
-   "deadline": "2026-11-23T19:00+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "digital"
-   ],
-   "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17045",
    "source": "oportunitati-ue.gov.ro",
    "fetchedAt": "2026-11-23T11:30:23+02:00"
   },
@@ -3054,44 +3016,6 @@
    "fetchedAt": "2026-11-23T11:30:23+02:00"
   },
   {
-   "id": "https://oportunitati-ue.gov.ro/apel/apel-sprijinirea-investitiilor-in-noi-capacitati-de-producere-a-energiei-electrice-produsa-din-surse-regenerabile-de-energie-solara-cu-capacitati-de-stocare-integrate-pentru-autoconsum-pentru-enti",
-   "title": "Apel – Sprijinirea investiţiilor în noi capacităţi de producere a energiei electrice produsă din surse regenerabile de energie solară, cu capacități de stocare integrate, pentru autoconsum pentru entități publice, cu finanțare din Fondul pentru modernizare",
-   "program": "Fondul pentru modernizare",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "28 septembrie 2026",
-   "openingDate": "2026-09-28T23:59+03:00",
-   "deadlineRaw": "23 noiembrie 2026 23:59",
-   "deadline": "2026-11-23T23:59+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "energie"
-   ],
-   "officialUrl": "https://oportunitati-ue.gov.ro/apel/apel-sprijinirea-investitiilor-in-noi-capacitati-de-producere-a-energiei-electrice-produsa-din-surse-regenerabile-de-energie-solara-cu-capacitati-de-stocare-integrate-pentru-autoconsum-pentru-enti/",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-23T11:30:23+02:00"
-  },
-  {
-   "id": "https://oportunitati-ue.gov.ro/apel/program-cheie-1-surse-regenerabile-de-energie-si-stocarea-energiei-sprijinirea-investitiilor-in-dezvoltarea-de-noi-capacitati-de-stocare-a-energiei-electrice-produsa-din-surse-regenerabile-de-energ",
-   "title": "Program cheie 1: Surse regenerabile de energie și stocarea energiei: Sprijinirea investițiilor în dezvoltarea de noi capacități de stocare a energiei electrice produsă din surse regenerabile de energie pentru entități publice",
-   "program": "Fondul pentru modernizare",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "28 septembrie 2026",
-   "openingDate": "2026-09-28T23:59+03:00",
-   "deadlineRaw": "23 noiembrie 2026 23:59",
-   "deadline": "2026-11-23T23:59+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "energie"
-   ],
-   "officialUrl": "https://oportunitati-ue.gov.ro/apel/program-cheie-1-surse-regenerabile-de-energie-si-stocarea-energiei-sprijinirea-investitiilor-in-dezvoltarea-de-noi-capacitati-de-stocare-a-energiei-electrice-produsa-din-surse-regenerabile-de-energ/",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-23T11:30:23+02:00"
-  },
-  {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15803",
    "title": "Apelul deschis UNITE 2 pentru proiecte interregionale comune",
    "program": "Pilonul III – O Europă inovatoare",
@@ -3129,25 +3053,6 @@
     "cercetare"
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15721",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-23T11:30:23+02:00"
-  },
-  {
-   "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15681",
-   "title": "SYSTEMU – Sprijin financiar pentru terți (FSTP)",
-   "program": "Pilonul III – O Europă inovatoare",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "15 septembrie 2026",
-   "openingDate": "2026-09-15T23:59+03:00",
-   "deadlineRaw": "24 noiembrie 2026 01:59",
-   "deadline": "2026-11-24T01:59+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "cercetare"
-   ],
-   "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15681",
    "source": "oportunitati-ue.gov.ro",
    "fetchedAt": "2026-11-23T11:30:23+02:00"
   },
@@ -5506,44 +5411,6 @@
     "energie"
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-3-rso2-1-1-eficienta-energetica-cladiri-rezidentiale-mrjm/",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-23T11:30:23+02:00"
-  },
-  {
-   "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2026-dn-01-01",
-   "title": "Rețelele doctorale MSCA 2026",
-   "program": "Pilonul III – O Europă inovatoare",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "28 mai 2026",
-   "openingDate": "2026-05-28T23:59+03:00",
-   "deadlineRaw": "24 noiembrie 2026 02:00",
-   "deadline": "2026-11-24T02:00+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "cercetare"
-   ],
-   "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-msca-2026-dn-01-01",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-23T11:30:23+02:00"
-  },
-  {
-   "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2026-01-03",
-   "title": "Rețele doctorale RAISE pentru inteligența artificială în știință (program pilot RAISE)",
-   "program": "Pilonul III – O Europă inovatoare",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "28 mai 2026",
-   "openingDate": "2026-05-28T23:59+03:00",
-   "deadlineRaw": "24 noiembrie 2026 02:00",
-   "deadline": "2026-11-24T02:00+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "cercetare"
-   ],
-   "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2026-01-03",
    "source": "oportunitati-ue.gov.ro",
    "fetchedAt": "2026-11-23T11:30:23+02:00"
   },
