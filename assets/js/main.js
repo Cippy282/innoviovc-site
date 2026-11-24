@@ -175,6 +175,13 @@
 
   // ---- expired calls disappear automatically (deadline passed since the page was generated) ----
   $$('.call[data-dl]').forEach(function(c){var d=+c.getAttribute('data-dl');if(d&&d*1000<Date.now())c.parentNode.removeChild(c)});
+  // keep every displayed total consistent with what is actually still open
+  (function(){var nowS=Date.now()/1000, onCatalog=!!$('#calls');
+    $$('.js-call-total').forEach(function(el){var n;
+      if(onCatalog){n=$$('#calls .call').length}
+      else{var tot=+el.getAttribute('data-total')||0, soon=(el.getAttribute('data-soon')||'').split(',').filter(Boolean);
+        n=tot-soon.filter(function(x){return +x<nowS}).length}
+      if(n>=0)el.textContent=n})})();
 
   // ---- stale-data notice on the funding page (if the feed is older than 4 days) ----
   var tUp=$('.updated time[datetime]');
