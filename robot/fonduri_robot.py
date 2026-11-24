@@ -239,8 +239,10 @@ def main():
 
     def score(c): return ((3 if c["domestic"] else 0) + (2 if set(c["cats"]) & {"imm","digital","energie","sanatate","educatie"} else 0) + (1 if c["budget"] else 0), c["opened_ts"] or 0)
     top = sorted(calls, key=score, reverse=True)[:CFG["teaser_count"]]
+    # termenele din următoarele 10 zile: JS scade din total apelurile care expiră până la următoarea regenerare
+    soon = ",".join(str(int(c["deadline_ts"])) for c in calls if c["deadline_ts"] and c["deadline_ts"] < time.time() + 10 * 86400)
     teaser = ('<div class="calls">' + "\n".join(card(c, True) for c in top) + "</div>"
-              f'<p class="updated" style="margin-top:14px">Actualizat automat: {h(updated)} · {len(calls)} apeluri active · sursa: oportunitati-ue.gov.ro</p>')
+              f'<p class="updated" style="margin-top:14px">Actualizat automat: {h(updated)} · <span class="js-call-total" data-total="{len(calls)}" data-soon="{soon}">{len(calls)}</span> apeluri active · sursa: oportunitati-ue.gov.ro</p>')
     if a.dry_run: print(teaser[:2000]); return 0
 
     write("fonduri-europene/index.html", page)
