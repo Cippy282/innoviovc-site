@@ -1,30 +1,49 @@
 {
  "schema": 2,
- "updated": "2026-11-24T07:43:00+02:00",
- "fetchedAt": "2026-11-24T07:43:00+02:00",
+ "updated": "2026-11-25T07:43:47+02:00",
+ "fetchedAt": "2026-11-25T07:43:47+02:00",
  "source": "https://oportunitati-ue.gov.ro/apeluri/?_sfm_status=activ&sf_paged=1",
- "count": 395,
+ "count": 394,
  "note": "Eligibilitatea nu este dedusă; condițiile oficiale sunt în ghidul fiecărui apel.",
  "calls": [
   {
-   "id": "https://oportunitati-ue.gov.ro/apel/prnv-2026-114-1-sprijin-pentru-ecosistemul-de-inovare-si-transfer-tehnologic",
-   "title": "PRNV/2026/114/1 – Sprijin pentru ecosistemul de inovare și transfer tehnologic",
-   "program": "Programe Regionale",
+   "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17101",
+   "title": "Nanotehnologii și tehnologii avansate pentru dezvoltarea de instrumente de diagnostic pentru îmbunătățirea detectării și gestionării clinice a bolilor netransmisibile – NanoDiagNCD",
+   "program": "Pilonul III – O Europă inovatoare",
+   "type": "",
+   "status": "Activ",
+   "openingDateRaw": "17 noiembrie 2026",
+   "openingDate": "2026-11-17T23:59+02:00",
+   "deadlineRaw": "19 ianuarie 2027 14:00",
+   "deadline": "2027-01-19T14:00+02:00",
+   "timezone": "Europe/Bucharest",
+   "budgetRaw": "",
+   "categories": [
+    "sanatate",
+    "cercetare"
+   ],
+   "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17101",
+   "source": "oportunitati-ue.gov.ro",
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
+  },
+  {
+   "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17563",
+   "title": "FACTORYX",
+   "program": "Pilonul III – O Europă inovatoare",
    "type": "",
    "status": "Activ",
    "openingDateRaw": "23 noiembrie 2026",
    "openingDate": "2026-11-23T23:59+02:00",
-   "deadlineRaw": "18 ianuarie 2027 00:00",
-   "deadline": "2027-01-18T00:00+02:00",
+   "deadlineRaw": "18 ianuarie 2027 19:00",
+   "deadline": "2027-01-18T19:00+02:00",
    "timezone": "Europe/Bucharest",
-   "budgetRaw": "534.410.000 RON",
+   "budgetRaw": "",
    "categories": [
-    "imm",
-    "energie"
+    "cercetare"
    ],
-   "officialUrl": "https://oportunitati-ue.gov.ro/apel/prnv-2026-114-1-sprijin-pentru-ecosistemul-de-inovare-si-transfer-tehnologic/",
+   "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17563",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17562",
@@ -43,7 +62,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17562",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-minimis-sprijin-acordat-microintreprinderilor-imm-urilor-si-intreprinderilor-mici-cu-capitalizare-de-piata-medie-prin-instrument-financiar-de-tip-garantie-combinat-cu-gra",
@@ -63,7 +82,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-minimis-sprijin-acordat-microintreprinderilor-imm-urilor-si-intreprinderilor-mici-cu-capitalizare-de-piata-medie-prin-instrument-financiar-de-tip-garantie-combinat-cu-gra/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/mc-apel-de-proiecte-ziua-culturii-nationale-2027-centrul-e-peste-tot",
@@ -82,7 +101,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/mc-apel-de-proiecte-ziua-culturii-nationale-2027-centrul-e-peste-tot/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prnv-2026-131-i-1-sprijin-pentru-dezvoltarea-de-tehnologii-strategice-pentru-europa-step",
@@ -101,7 +120,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prnv-2026-131-i-1-sprijin-pentru-dezvoltarea-de-tehnologii-strategice-pentru-europa-step/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p1-rso1-3-1-5-instrumente-financiare-pentru-constructia-extinderea-parcurilor-industriale",
@@ -120,27 +139,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p1-rso1-3-1-5-instrumente-financiare-pentru-constructia-extinderea-parcurilor-industriale/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
-  },
-  {
-   "id": "https://oportunitati-ue.gov.ro/apel/primii-program-pentru-reusita-invatamantului-primar-prin-masuri-integrate-de-interventie-2",
-   "title": "PRIMII: Program pentru Reușita Învățământului Primar prin Măsuri Integrate de Intervenție",
-   "program": "Programul Educație și Ocupare",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "19 noiembrie 2026",
-   "openingDate": "2026-11-19T23:59+02:00",
-   "deadlineRaw": "21 decembrie 2026 00:00",
-   "deadline": "2026-12-21T00:00+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "1.257.728.815,35 RON",
-   "categories": [
-    "educatie",
-    "social"
-   ],
-   "officialUrl": "https://oportunitati-ue.gov.ro/apel/primii-program-pentru-reusita-invatamantului-primar-prin-masuri-integrate-de-interventie-2/",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14881",
@@ -159,7 +158,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14881",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17061",
@@ -179,7 +178,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17061",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17002",
@@ -199,7 +198,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17002",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-sport-2027-lssncese",
@@ -218,7 +217,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-sport-2027-lssncese",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-sport-2027-sncese",
@@ -237,7 +236,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-sport-2027-sncese",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17481",
@@ -257,7 +256,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17481",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-emjm-design",
@@ -277,7 +276,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-emjm-design",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-pex-emjm-mob",
@@ -297,7 +296,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-pex-emjm-mob",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/primii-program-pentru-reusita-invatamantului-primar-prin-masuri-integrate-de-interventie",
@@ -317,7 +316,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/primii-program-pentru-reusita-invatamantului-primar-prin-masuri-integrate-de-interventie/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17261",
@@ -337,7 +336,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17261",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17461",
@@ -357,7 +356,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17461",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17236",
@@ -378,7 +377,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17236",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-114-sprijin-pentru-ecosistemul-de-inovare-si-transfer-tehnologic",
@@ -398,7 +397,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-114-sprijin-pentru-ecosistemul-de-inovare-si-transfer-tehnologic/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-la-domiciliu-pentru-persoanele-varstnice-iti-microregiunea-tara-fagarasului-relansare-2026",
@@ -419,7 +418,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-la-domiciliu-pentru-persoanele-varstnice-iti-microregiunea-tara-fagarasului-relansare-2026/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-la-domiciliu-pentru-persoanele-varstnice-iti-motii-tara-de-piatra-2",
@@ -440,7 +439,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-la-domiciliu-pentru-persoanele-varstnice-iti-motii-tara-de-piatra-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-de-zi-terapii-psihologice-pentru-copiii-cu-dizabilitati-iti-valea-jiului-relansare-2",
@@ -461,7 +460,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-de-zi-terapii-psihologice-pentru-copiii-cu-dizabilitati-iti-valea-jiului-relansare-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p1-rso1-1-3-3-apel-3-colaborare-interregionala-vinnovate",
@@ -480,7 +479,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p1-rso1-1-3-3-apel-3-colaborare-interregionala-vinnovate/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-de-zi-terapii-psihologice-pentru-copiii-cu-dizabilitati-iti-valea-jiului-relansare",
@@ -501,7 +500,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-de-zi-terapii-psihologice-pentru-copiii-cu-dizabilitati-iti-valea-jiului-relansare/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-de-zi-terapii-psihologice-pentru-copiii-cu-dizabilitati-iti-microregiunea-tara-fagarasului-relansare",
@@ -522,7 +521,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-ingrijire-de-zi-terapii-psihologice-pentru-copiii-cu-dizabilitati-iti-microregiunea-tara-fagarasului-relansare/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/bv1b6-actiuni-specifice-dotarea-politiei-de-frontiera-romane-pentru-cresterea-capacitatii-operationale-a-frontex2",
@@ -541,7 +540,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/bv1b6-actiuni-specifice-dotarea-politiei-de-frontiera-romane-pentru-cresterea-capacitatii-operationale-a-frontex2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/bv23b-dezvoltarea-cooperarii-consulare-si-a-programelor-de-formare",
@@ -561,7 +560,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/bv23b-dezvoltarea-cooperarii-consulare-si-a-programelor-de-formare/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17281",
@@ -580,7 +579,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17281",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erc-2027-poc",
@@ -599,7 +598,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erc-2027-poc",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2027-accelerator-01",
@@ -618,7 +617,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2027-accelerator-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2027-step",
@@ -638,7 +637,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2027-step",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17243",
@@ -658,7 +657,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17243",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17239",
@@ -678,7 +677,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17239",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15982",
@@ -697,7 +696,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15982",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16721",
@@ -716,7 +715,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16721",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-histmigration",
@@ -735,7 +734,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-histmigration",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-gencrime-2",
@@ -754,7 +753,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-gencrime-2",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-gencrime-1",
@@ -773,7 +772,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-gencrime-1",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-holocaustjew",
@@ -792,7 +791,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-holocaustjew",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-transition",
@@ -811,7 +810,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-rem-transition",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-values",
@@ -830,7 +829,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cerv-2026-citizens-values",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16801",
@@ -849,7 +848,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16801",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16041",
@@ -868,7 +867,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16041",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17021",
@@ -888,7 +887,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17021",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16621",
@@ -908,7 +907,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16621",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15741",
@@ -927,7 +926,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15741",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17237",
@@ -947,7 +946,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17237",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17238",
@@ -966,7 +965,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17238",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16941",
@@ -987,7 +986,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16941",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/programul-sme-eco-tech",
@@ -1007,7 +1006,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/programul-sme-eco-tech/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17044",
@@ -1027,7 +1026,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17044",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16261",
@@ -1047,7 +1046,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16261",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2026-eued",
@@ -1067,7 +1066,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2026-eued",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17181",
@@ -1087,7 +1086,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17181",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16242",
@@ -1106,7 +1105,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16242",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16202",
@@ -1126,7 +1125,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16202",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16221",
@@ -1146,7 +1145,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16221",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15386",
@@ -1166,7 +1165,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15386",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15985",
@@ -1188,7 +1187,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15985",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16381",
@@ -1208,7 +1207,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16381",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16281",
@@ -1228,7 +1227,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16281",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16121",
@@ -1250,7 +1249,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16121",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-cbch",
@@ -1269,7 +1268,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-cbch",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-natch",
@@ -1288,7 +1287,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-12-natch",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16201",
@@ -1308,7 +1307,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16201",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16181",
@@ -1328,7 +1327,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16181",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16781",
@@ -1347,7 +1346,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16781",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16761",
@@ -1366,7 +1365,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16761",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17001",
@@ -1386,7 +1385,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17001",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16962",
@@ -1405,7 +1404,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16962",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16981",
@@ -1424,7 +1423,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16981",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16961",
@@ -1443,7 +1442,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16961",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17121",
@@ -1463,7 +1462,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17121",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/imreg-2026-infome",
@@ -1482,7 +1481,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/imreg-2026-infome",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16542",
@@ -1501,7 +1500,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16542",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17043",
@@ -1520,7 +1519,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17043",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16881",
@@ -1540,7 +1539,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16881",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/pppa-sport-2026-emergency-youth",
@@ -1559,7 +1558,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/pppa-sport-2026-emergency-youth",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16841",
@@ -1579,7 +1578,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16841",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidului-solicitantului-pentru-componenta-asistenta-tehnica-pentru-prioritatile-de-tranzitie-justa",
@@ -1598,7 +1597,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidului-solicitantului-pentru-componenta-asistenta-tehnica-pentru-prioritatile-de-tranzitie-justa/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-og",
@@ -1617,7 +1616,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-og",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-apelul-de-proiecte-cresterea-capacitatii-de-a-furniza-servicii-de-sanatatea-reproducerii-cu-accent-particular-pe-cabinetele-de-planificare-familiala-reabilitate",
@@ -1636,7 +1635,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-apelul-de-proiecte-cresterea-capacitatii-de-a-furniza-servicii-de-sanatatea-reproducerii-cu-accent-particular-pe-cabinetele-de-planificare-familiala-reabilitate/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16861",
@@ -1656,7 +1655,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16861",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17041",
@@ -1675,7 +1674,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/17041",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-eur-univ",
@@ -1695,7 +1694,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2027-eur-univ",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/am4cs9-solidaritatea-cu-tarile-terte-afectate-de-fluxurile-migratorii-admisie-umanitara-2024-2025",
@@ -1714,7 +1713,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/am4cs9-solidaritatea-cu-tarile-terte-afectate-de-fluxurile-migratorii-admisie-umanitara-2024-2025/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/am4cs7-solidaritatea-cu-tarile-terte-afectate-de-fluxurile-migratorii-transfer-sem-ii-2024-sem-i-2025",
@@ -1733,7 +1732,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/am4cs7-solidaritatea-cu-tarile-terte-afectate-de-fluxurile-migratorii-transfer-sem-ii-2024-sem-i-2025/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-step-vet-formare-profesionala-la-locul-de-munca-pentru-elevii-din-invatamantul-profesional-si-tehnic-inclusiv-invatamantul-dual-si-invatamantul-postliceal-in-tehnolog",
@@ -1754,7 +1753,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-step-vet-formare-profesionala-la-locul-de-munca-pentru-elevii-din-invatamantul-profesional-si-tehnic-inclusiv-invatamantul-dual-si-invatamantul-postliceal-in-tehnolog/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/1-4-3-cresterea-competitivitatii-imm-din-cadrul-iti",
@@ -1774,7 +1773,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/1-4-3-cresterea-competitivitatii-imm-din-cadrul-iti/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prse-2-1-b-2-2026-sprijinirea-eficientei-energetice-in-cladiri-publice-inclusiv-a-celor-cu-statut-de-monument-istoric-2-1-b-proiecte-ale-caror-documentatii-au-fost-pregatite-prin-instrumentul-ele-2",
@@ -1793,7 +1792,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prse-2-1-b-2-2026-sprijinirea-eficientei-energetice-in-cladiri-publice-inclusiv-a-celor-cu-statut-de-monument-istoric-2-1-b-proiecte-ale-caror-documentatii-au-fost-pregatite-prin-instrumentul-ele-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/just-2027-jtra",
@@ -1812,7 +1811,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/just-2027-jtra",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/42638",
@@ -1831,7 +1830,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/42638/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16741",
@@ -1850,7 +1849,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16741",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/sprijin-pentru-dezvoltarea-tehnologiilor-strategice",
@@ -1869,7 +1868,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/sprijin-pentru-dezvoltarea-tehnologiilor-strategice/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16482",
@@ -1888,7 +1887,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16482",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16143",
@@ -1908,7 +1907,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16143",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16641",
@@ -1927,7 +1926,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16641",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16601",
@@ -1946,7 +1945,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16601",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16241",
@@ -1967,7 +1966,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16241",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16501",
@@ -1987,7 +1986,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16501",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16481",
@@ -2006,7 +2005,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16481",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15882",
@@ -2026,7 +2025,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15882",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prv-5-1-c-1-sistem-de-transport-inter-si-intrajudetean",
@@ -2045,7 +2044,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prv-5-1-c-1-sistem-de-transport-inter-si-intrajudetean/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/dezvoltarea-infrastructurii-de-reincarcare-a-vehiculelor-electrice-pe-reteaua-nationala-de-autostrazi-drumuri-expres-si-nationale-e-mobility-ro-submasura-1",
@@ -2064,7 +2063,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/dezvoltarea-infrastructurii-de-reincarcare-a-vehiculelor-electrice-pe-reteaua-nationala-de-autostrazi-drumuri-expres-si-nationale-e-mobility-ro-submasura-1/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/achizitia-de-vehicule-din-categoria-n2-sau-n3-electrice-cu-baterie-pentru-transportul-rutier-astfel-incat-sa-se-califice-ca-vehicule-cu-emisii-zero-inlocuirea-vehiculelor-pentru-transportul-rutier-d",
@@ -2083,7 +2082,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/achizitia-de-vehicule-din-categoria-n2-sau-n3-electrice-cu-baterie-pentru-transportul-rutier-astfel-incat-sa-se-califice-ca-vehicule-cu-emisii-zero-inlocuirea-vehiculelor-pentru-transportul-rutier-d/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-locuinte-sociale",
@@ -2102,7 +2101,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-locuinte-sociale/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eie-2027-02-connect-01",
@@ -2122,7 +2121,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eie-2027-02-connect-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2026-07-cross-04",
@@ -2142,7 +2141,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-miss-2026-07-cross-04",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-04",
@@ -2162,7 +2161,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-04",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-50",
@@ -2181,7 +2180,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-50",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/interventia-dr-12-investitii-in-consolidarea-exploatatiilor-tinerilor-fermieri-instalati-si-a-fermierilor-cu-varsta-de-pana-la-45-de-ani",
@@ -2200,7 +2199,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/interventia-dr-12-investitii-in-consolidarea-exploatatiilor-tinerilor-fermieri-instalati-si-a-fermierilor-cu-varsta-de-pana-la-45-de-ani/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-sdt-neb-1-lansarea-ghidului-solicitantului-pentru-apelul-strategii-de-dezvoltare-teritoriala-initiativa-new-european-bauhaus-neb",
@@ -2210,8 +2209,8 @@
    "status": "Activ",
    "openingDateRaw": "05 octombrie 2026",
    "openingDate": "2026-10-05T23:59+03:00",
-   "deadlineRaw": "27 noiembrie 2026 14:00",
-   "deadline": "2026-11-27T14:00+02:00",
+   "deadlineRaw": "29 ianuarie 2027 14:00",
+   "deadline": "2027-01-29T14:00+02:00",
    "timezone": "Europe/Bucharest",
    "budgetRaw": "",
    "categories": [
@@ -2219,7 +2218,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-sdt-neb-1-lansarea-ghidului-solicitantului-pentru-apelul-strategii-de-dezvoltare-teritoriala-initiativa-new-european-bauhaus-neb/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/scoli-pentru-viitor",
@@ -2239,7 +2238,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/scoli-pentru-viitor/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/lansare-competitie-granturi-institutionale-pentru-acordarea-de-burse-de-cercetare-postdoctorale-bpd2026",
@@ -2260,7 +2259,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/lansare-competitie-granturi-institutionale-pentru-acordarea-de-burse-de-cercetare-postdoctorale-bpd2026/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-08",
@@ -2281,7 +2280,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-08",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-03",
@@ -2302,7 +2301,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-11",
@@ -2322,7 +2321,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-04-11",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-sprijin-pentru-familii-monoparentale-iti-microregiunea-tara-fagarasului",
@@ -2342,7 +2341,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-sprijin-pentru-familii-monoparentale-iti-microregiunea-tara-fagarasului/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/universitati-deschise",
@@ -2362,7 +2361,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/universitati-deschise/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-sprijin-pentru-familii-monoparentale-iti-motii-tara-de-piatra",
@@ -2382,7 +2381,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-sprijin-pentru-familii-monoparentale-iti-motii-tara-de-piatra/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/diversificarea-si-flexibilizarea-serviciilor-de-educatie-timpurie-relansare-2026",
@@ -2402,7 +2401,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/diversificarea-si-flexibilizarea-serviciilor-de-educatie-timpurie-relansare-2026/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-04-01",
@@ -2422,7 +2421,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-04-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-02",
@@ -2442,7 +2441,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-03",
@@ -2461,7 +2460,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-02",
@@ -2481,7 +2480,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-01",
@@ -2501,7 +2500,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-03",
@@ -2520,7 +2519,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-01-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-05",
@@ -2539,7 +2538,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-05",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-04",
@@ -2559,7 +2558,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-04",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-01",
@@ -2579,7 +2578,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-nature-2027-02-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-09",
@@ -2600,7 +2599,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-09",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-10",
@@ -2619,7 +2618,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-10",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-13",
@@ -2640,7 +2639,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-13",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-02-05",
@@ -2661,7 +2660,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-02-05",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-12",
@@ -2682,7 +2681,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-01-12",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-06-02",
@@ -2703,7 +2702,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-bridging-2027-06-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/bv15b-imbunatatirea-cooperarii-interinstitutionale-la-nivel-national-european-si-cu-tari-terte-si-activitati-de-formare-studii-schimb-de-bune-practici-si-de-expertiza-in-domeniul-managementului-in",
@@ -2723,7 +2722,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/bv15b-imbunatatirea-cooperarii-interinstitutionale-la-nivel-national-european-si-cu-tari-terte-si-activitati-de-formare-studii-schimb-de-bune-practici-si-de-expertiza-in-domeniul-managementului-in/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/am12c-continuarea-consolidarii-capacitatii-sistemului-national-de-azil-in-ceea-ce-priveste-infrastructura-si-serviciile-inclusiv-la-nivel-local-si-regional",
@@ -2742,7 +2741,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/am12c-continuarea-consolidarii-capacitatii-sistemului-national-de-azil-in-ceea-ce-priveste-infrastructura-si-serviciile-inclusiv-la-nivel-local-si-regional/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-sprijin-pentru-incluziunea-sociala-a-persoanelor-fara-adapost",
@@ -2761,7 +2760,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-servicii-de-sprijin-pentru-incluziunea-sociala-a-persoanelor-fara-adapost/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/investitii-in-infrastructura-unitatilor-sanitare-publice-cu-paturi-in-cadrul-carora-functioneaza-vor-functiona-centre-de-sanatate-mintala-pentru-prevenirea-si-tratarea-adictiilor-apel-relan",
@@ -2781,7 +2780,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/investitii-in-infrastructura-unitatilor-sanitare-publice-cu-paturi-in-cadrul-carora-functioneaza-vor-functiona-centre-de-sanatate-mintala-pentru-prevenirea-si-tratarea-adictiilor-apel-relan/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/infrastructura-si-servicii-comunitare-pentru-copii-vulnerabili-iti-valea-jiului",
@@ -2801,7 +2800,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/infrastructura-si-servicii-comunitare-pentru-copii-vulnerabili-iti-valea-jiului/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-coordprep",
@@ -2820,7 +2819,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-coordprep",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-regcabh",
@@ -2839,7 +2838,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-regcabh",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-cyberai",
@@ -2858,7 +2857,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-cyberai",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-ncc",
@@ -2877,7 +2876,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-ncc",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-euleg",
@@ -2896,7 +2895,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-euleg",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-ai4sme",
@@ -2916,7 +2915,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-ai4sme",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-dualuse",
@@ -2935,7 +2934,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-eccc-2027-deploy-cyber-11-dualuse",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15522",
@@ -2954,7 +2953,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15522",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15569",
@@ -2973,7 +2972,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15569",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13301",
@@ -2994,7 +2993,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13301",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16101",
@@ -3013,7 +3012,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16101",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erc-2027-cog",
@@ -3032,7 +3031,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erc-2027-cog",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16061",
@@ -3052,7 +3051,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/16061",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/isf-2026-tf2-ag-cyber-digital",
@@ -3071,7 +3070,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/isf-2026-tf2-ag-cyber-digital",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/isf-2026-tf2-ag-cyber-standard",
@@ -3090,7 +3089,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/isf-2026-tf2-ag-cyber-standard",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15661",
@@ -3109,7 +3108,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15661",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13903",
@@ -3129,7 +3128,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13903",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15803",
@@ -3148,7 +3147,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15803",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15721",
@@ -3170,7 +3169,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15721",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15441",
@@ -3190,7 +3189,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15441",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15581",
@@ -3209,7 +3208,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15581",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-investitii-in-infrastructura-publica-a-centrelor-de-arsi-mari-arsi-din-cadrul-unitatilor-sanitare-publice-care-trateaza-pacienti-critici-dotare",
@@ -3229,7 +3228,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-investitii-in-infrastructura-publica-a-centrelor-de-arsi-mari-arsi-din-cadrul-unitatilor-sanitare-publice-care-trateaza-pacienti-critici-dotare/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-finantarea-proiectelor-pentru-digitalizarea-imm-urilor-si-a-intreprinderilor-cu-capitalizare-medie-realizata-prin-hub-uri-de-inovare-digitala-europene-edih",
@@ -3249,7 +3248,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-finantarea-proiectelor-pentru-digitalizarea-imm-urilor-si-a-intreprinderilor-cu-capitalizare-medie-realizata-prin-hub-uri-de-inovare-digitala-europene-edih/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-educatori-pentru-copiii-din-medii-defavorizate",
@@ -3269,7 +3268,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-educatori-pentru-copiii-din-medii-defavorizate/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2026-prize-wip-risinginnovators",
@@ -3289,7 +3288,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2026-prize-wip-risinginnovators",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2026-prize-wip",
@@ -3309,7 +3308,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eic-2026-prize-wip",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-pentru-sustinerea-activitatii-crescatorilor-din-sectorul-bovin-in-anul-2026",
@@ -3328,7 +3327,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-pentru-sustinerea-activitatii-crescatorilor-din-sectorul-bovin-in-anul-2026/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-pentru-sustinerea-activitatii-crescatorilor-din-sectorul-suin-in-anul-2026",
@@ -3347,7 +3346,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-pentru-sustinerea-activitatii-crescatorilor-din-sectorul-suin-in-anul-2026/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-cresterea-accesului-profesionistilor-din-domeniul-serviciilor-sociale-pentru-copii-si-familii-la-programe-de-formare-continua",
@@ -3367,7 +3366,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-cresterea-accesului-profesionistilor-din-domeniul-serviciilor-sociale-pentru-copii-si-familii-la-programe-de-formare-continua/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15482",
@@ -3386,7 +3385,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15482",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/am10b-sprijin-operational-sistemul-european-comun-de-azil",
@@ -3405,7 +3404,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/am10b-sprijin-operational-sistemul-european-comun-de-azil/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15122",
@@ -3424,7 +3423,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15122",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai-gfp",
@@ -3444,7 +3443,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai-gfp",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai1-sg",
@@ -3464,7 +3463,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-ai1-sg",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-sg-japan",
@@ -3483,7 +3482,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/digital-ju-chips-2026-sg-japan",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14962",
@@ -3503,7 +3502,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14962",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15082",
@@ -3522,7 +3521,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15082",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15083",
@@ -3542,7 +3541,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15083",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p1-rso1-1-1-4-ghidul-solicitantului-pentru-dezvoltarea-inovativa-a-clusterelor-apel-1",
@@ -3561,7 +3560,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p1-rso1-1-1-4-ghidul-solicitantului-pentru-dezvoltarea-inovativa-a-clusterelor-apel-1/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prc-1218-prc_p1-op1-interventia-1-5-1-incubatoare-si-acceleratoare-de-afaceri-apel-2",
@@ -3580,7 +3579,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prc-1218-prc_p1-op1-interventia-1-5-1-incubatoare-si-acceleratoare-de-afaceri-apel-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eit-2026-prize-wip-leadership",
@@ -3599,7 +3598,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-eit-2026-prize-wip-leadership",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-actiunea-energie-verde-accesibila-si-mobilitate-nepoluanta",
@@ -3618,7 +3617,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-actiunea-energie-verde-accesibila-si-mobilitate-nepoluanta/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-renovarea-energetica-minora-moderata-sau-aprofundata-a-cladirilor-rezidentiale-multifamiliale-pentru-comunitati",
@@ -3637,11 +3636,11 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-renovarea-energetica-minora-moderata-sau-aprofundata-a-cladirilor-rezidentiale-multifamiliale-pentru-comunitati/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-sprijinirea-companiilor-prin-intermediul-infrastructurilor-suport-de-afaceri-parcuri-industriale",
-   "title": "Ghidul Solicitantului ,,Sprijinirea companiilor prin intermediul infrastructurilor suport de afaceri – Parcuri industriale”",
+   "title": "Ghidul Solicitantului – ,,Sprijinirea companiilor prin intermediul infrastructurilor suport de afaceri – Parcuri industriale” – Acțiunea 1.5",
    "program": "Programe Regionale",
    "type": "",
    "status": "Activ",
@@ -3658,7 +3657,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-sprijinirea-companiilor-prin-intermediul-infrastructurilor-suport-de-afaceri-parcuri-industriale/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15261",
@@ -3678,7 +3677,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15261",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-continuarea-investitiilor-in-infrastructura-de-sanatate-din-regiunea-sud-est-sprijinita-initial-prin-planul-national-de-redresare-si-rezilienta",
@@ -3698,7 +3697,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-continuarea-investitiilor-in-infrastructura-de-sanatate-din-regiunea-sud-est-sprijinita-initial-prin-planul-national-de-redresare-si-rezilienta/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15323",
@@ -3718,7 +3717,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15323",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/sprijin-pentru-dezvoltarea-turismului-in-mediul-rural-apel-nr-2",
@@ -3737,7 +3736,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/sprijin-pentru-dezvoltarea-turismului-in-mediul-rural-apel-nr-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-dte2-sprijin-pentru-pregatirea-documentatiilor-tehnico-economice-pentru-proiecte-care-vizeaza-urmatoarea-perioada-de-programare",
@@ -3757,7 +3756,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-dte2-sprijin-pentru-pregatirea-documentatiilor-tehnico-economice-pentru-proiecte-care-vizeaza-urmatoarea-perioada-de-programare/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/strategii-teritoriale-integrate-pentru-localitatile-rurale",
@@ -3776,7 +3775,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/strategii-teritoriale-integrate-pentru-localitatile-rurale/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/dotarea-politiei-de-frontiera-romane-pentru-cresterea-capacitatii-operationale-a-frontex-ii",
@@ -3795,7 +3794,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/dotarea-politiei-de-frontiera-romane-pentru-cresterea-capacitatii-operationale-a-frontex-ii/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/fm-program-cheie-3-apel-sprijinirea-investitiilor-in-solutii-digitale-integrate-pentru-masurarea-inteligenta-a-datelor-din-sistemul-energetic-precum-si-pentru-procesarea-analiza-si-mode",
@@ -3815,7 +3814,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/fm-program-cheie-3-apel-sprijinirea-investitiilor-in-solutii-digitale-integrate-pentru-masurarea-inteligenta-a-datelor-din-sistemul-energetic-precum-si-pentru-procesarea-analiza-si-mode/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-sprijinirea-comunitatii-prin-infrastructuri-socio-culturale-si-educative-dedicate-incluziunii-sociale-ptj-prioritatea-3-dolj",
@@ -3837,7 +3836,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-sprijinirea-comunitatii-prin-infrastructuri-socio-culturale-si-educative-dedicate-incluziunii-sociale-ptj-prioritatea-3-dolj/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/lansarea-apelului-competitiv-aferent-actiunii-4-1-dezvoltarea-mobilitatii-urbane-durabile-in-municipiile-regiunii-centru-inclusiv-zone-metropolitane-si-zone-functionale-urbane-apel-2026",
@@ -3857,7 +3856,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/lansarea-apelului-competitiv-aferent-actiunii-4-1-dezvoltarea-mobilitatii-urbane-durabile-in-municipiile-regiunii-centru-inclusiv-zone-metropolitane-si-zone-functionale-urbane-apel-2026/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/lansarea-apelului-competitiv-aferent-actiunii-8-1-dezvoltare-urbana-integrata-prin-regenerarea-spatiilor-publice-punerea-in-valoare-a-patrimoniului-infrastructurii-culturale-si-a-potential",
@@ -3877,7 +3876,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/lansarea-apelului-competitiv-aferent-actiunii-8-1-dezvoltare-urbana-integrata-prin-regenerarea-spatiilor-publice-punerea-in-valoare-a-patrimoniului-infrastructurii-culturale-si-a-potential/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-finantarea-proiectelor-dedicate-imbunatatirii-monitorizarii-calitatii-aerului-pentru-indeplinirea-cerintelor-de-monitorizare-si-reducere-a-emisiilor-rezultate-din-directiv",
@@ -3896,7 +3895,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-finantarea-proiectelor-dedicate-imbunatatirii-monitorizarii-calitatii-aerului-pentru-indeplinirea-cerintelor-de-monitorizare-si-reducere-a-emisiilor-rezultate-din-directiv/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14841",
@@ -3916,7 +3915,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14841",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-ihi-2026-13-two-stage-03",
@@ -3935,7 +3934,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-ihi-2026-13-two-stage-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-ihi-2026-13-two-stage-02",
@@ -3956,7 +3955,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-ihi-2026-13-two-stage-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-ihi-2026-13-two-stage-01",
@@ -3976,7 +3975,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-ihi-2026-13-two-stage-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14865",
@@ -3995,7 +3994,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14865",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14943",
@@ -4014,7 +4013,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14943",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/actiunea-3-3-investitii-in-infrastructura-verde-si-albastra-in-mediul-urban-regional-municipii",
@@ -4034,7 +4033,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/actiunea-3-3-investitii-in-infrastructura-verde-si-albastra-in-mediul-urban-regional-municipii/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-pentru-compensarea-costurilor-de-investitii-in-pentru-sisteme-de-management-integrat-al-deseurilor-necesare-pentru-imbunatatirea-modului-de-gestionare-a-deseurilor-municipale",
@@ -4054,26 +4053,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-pentru-compensarea-costurilor-de-investitii-in-pentru-sisteme-de-management-integrat-al-deseurilor-necesare-pentru-imbunatatirea-modului-de-gestionare-a-deseurilor-municipale/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
-  },
-  {
-   "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cef-dig-2026-cable-repair-capacities-works",
-   "title": "Capacități de reparare a cablurilor submarine – Lucrări",
-   "program": "Mecanismul de Interconectare a Europei",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "23 iunie 2026",
-   "openingDate": "2026-06-23T23:59+03:00",
-   "deadlineRaw": "25 noiembrie 2026 02:00",
-   "deadline": "2026-11-25T02:00+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "cercetare"
-   ],
-   "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cef-dig-2026-cable-repair-capacities-works",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14704",
@@ -4092,7 +4072,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14704",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14601",
@@ -4111,7 +4091,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14601",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-referitoare-la-granturi-pentru-dezvoltarea-de-noi-servicii-aplicatii-produse-prin-inovare-si-adoptarea-de-tehnologii-avansate",
@@ -4131,7 +4111,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-referitoare-la-granturi-pentru-dezvoltarea-de-noi-servicii-aplicatii-produse-prin-inovare-si-adoptarea-de-tehnologii-avansate/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-conditii-specifice-de-accesare-a-fondurilor-din-programul-asistenta-tehnica-2021-2027-aferent-p2-imbunatatirea-capacitatii-de-gestionare-si-implementare-si-as",
@@ -4150,7 +4130,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-conditii-specifice-de-accesare-a-fondurilor-din-programul-asistenta-tehnica-2021-2027-aferent-p2-imbunatatirea-capacitatii-de-gestionare-si-implementare-si-as/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-privind-sprijinirea-investitiilor-in-noi-capacitati-de-producere-a-energiei-electrice-produsa-din-surse-regenerabile-pentru-autoconsumul-intreprinderilor-din-cadrul-sectorului-agricol",
@@ -4170,7 +4150,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-privind-sprijinirea-investitiilor-in-noi-capacitati-de-producere-a-energiei-electrice-produsa-din-surse-regenerabile-pentru-autoconsumul-intreprinderilor-din-cadrul-sectorului-agricol/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-clustere-inovative-sprijin-pentru-entitatile-de-management-ale-clusterelor",
@@ -4189,7 +4169,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-clustere-inovative-sprijin-pentru-entitatile-de-management-ale-clusterelor/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-clustere-inovative-sprijin-pentru-parteneri-imm-uri",
@@ -4208,7 +4188,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-clustere-inovative-sprijin-pentru-parteneri-imm-uri/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-04-widening-01",
@@ -4227,7 +4207,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-04-widening-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/cr-ue-in-patrimoniu-granturi-pentru-inovare-in-patrimoniul-cultural-2",
@@ -4246,7 +4226,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/cr-ue-in-patrimoniu-granturi-pentru-inovare-in-patrimoniul-cultural-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pdd-1178-pdd_p5-op2-rso2-5-pdd_a16-proiecte-regionale-de-apa-si-apa-uzata",
@@ -4265,7 +4245,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pdd-1178-pdd_p5-op2-rso2-5-pdd_a16-proiecte-regionale-de-apa-si-apa-uzata/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14062",
@@ -4284,7 +4264,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14062",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14063",
@@ -4303,7 +4283,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14063",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/5-2-dezvoltarea-infrastructurii-educationale-la-nivelul-invatamantului-primar-si-secundar",
@@ -4323,7 +4303,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/5-2-dezvoltarea-infrastructurii-educationale-la-nivelul-invatamantului-primar-si-secundar/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-eurohpc-2026-qml-07-01",
@@ -4343,7 +4323,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-ju-eurohpc-2026-qml-07-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14402",
@@ -4362,7 +4342,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/14402",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/sprijin-operational-vize-2",
@@ -4381,7 +4361,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/sprijin-operational-vize-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/sprijin-operational-vize",
@@ -4400,7 +4380,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/sprijin-operational-vize/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/cresterea-eficacitatii-si-rezilientei-sistemelor-de-sanatate-in-domeniul-oncologie-prin-dezvoltarea-de-instrumente-de-lucru-mecanisme-si-prin-formarea-actualizarea-competentelor-practicienilor-implica",
@@ -4420,7 +4400,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/cresterea-eficacitatii-si-rezilientei-sistemelor-de-sanatate-in-domeniul-oncologie-prin-dezvoltarea-de-instrumente-de-lucru-mecanisme-si-prin-formarea-actualizarea-competentelor-practicienilor-implica/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/dezvoltarea-transportului-naval-si-multimodal",
@@ -4439,7 +4419,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/dezvoltarea-transportului-naval-si-multimodal/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/life-2026-strat-env-sip-two-stage",
@@ -4458,7 +4438,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/life-2026-strat-env-sip-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/life-2026-strat-clima-sip-two-stage",
@@ -4477,7 +4457,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/life-2026-strat-clima-sip-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/life-2026-strat-nat-snap-two-stage",
@@ -4496,7 +4476,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/life-2026-strat-nat-snap-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13381",
@@ -4515,7 +4495,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13381",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13985",
@@ -4535,7 +4515,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13985",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-digitalizarea-imm-urilor-a-intreprinderilor-cu-capitalizare-medie-si-a-institutiilor-administratiei-publice-realizata-prin-hub-uri-de-inovare-digitala-europene-edih-cu-marca",
@@ -4556,7 +4536,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-digitalizarea-imm-urilor-a-intreprinderilor-cu-capitalizare-medie-si-a-institutiilor-administratiei-publice-realizata-prin-hub-uri-de-inovare-digitala-europene-edih-cu-marca/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/cresterea-capacitatii-de-coordonare-a-activitatii-in-domeniul-transplantului-prin-dezvoltarea-de-instrumente-de-lucru-si-prin-derularea-campaniilor-de-promovare-informare-constientizare-privind-import",
@@ -4576,7 +4556,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/cresterea-capacitatii-de-coordonare-a-activitatii-in-domeniul-transplantului-prin-dezvoltarea-de-instrumente-de-lucru-si-prin-derularea-campaniilor-de-promovare-informare-constientizare-privind-import/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidului-solicitantului-imbunatatirea-capacitatii-de-gestionare-si-implementare-si-asigurare-a-transparentei-fondurilor-fedr-fc-fse-ftj-apel-de-proiecte-asigurarea-at-necesare-derularii-activitat",
@@ -4595,7 +4575,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidului-solicitantului-imbunatatirea-capacitatii-de-gestionare-si-implementare-si-asigurare-a-transparentei-fondurilor-fedr-fc-fse-ftj-apel-de-proiecte-asigurarea-at-necesare-derularii-activitat/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/investitii-in-centrele-de-transfuzie-sanguina-desemnate-coordonator-regional-centrele-judetene-de-transfuzie-sanguina",
@@ -4614,7 +4594,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/investitii-in-centrele-de-transfuzie-sanguina-desemnate-coordonator-regional-centrele-judetene-de-transfuzie-sanguina/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13726",
@@ -4634,7 +4614,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13726",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-actiunea-energie-verde-accesibila-si-mobilitate-nepoluanta-componenta-mobilitate-verde-prioritatile-3-si-4-atenuarea-impact",
@@ -4653,7 +4633,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-actiunea-energie-verde-accesibila-si-mobilitate-nepoluanta-componenta-mobilitate-verde-prioritatile-3-si-4-atenuarea-impact/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-usi-2027-ls-ira-cuxs",
@@ -4672,7 +4652,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-usi-2027-ls-ira-cuxs",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-ls-ira-kec",
@@ -4691,7 +4671,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-ls-ira-kec",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-fnlc-cpa-amds",
@@ -4710,7 +4690,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-fnlc-cpa-amds",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-ls-ira-pe",
@@ -4729,7 +4709,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-ls-ira-pe",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-fnlc-cpa-c5isrs",
@@ -4748,7 +4728,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-fnlc-cpa-c5isrs",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-fnlc-cpa-gnps",
@@ -4767,7 +4747,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/edf-edip-p-2027-fnlc-cpa-gnps",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-euratom-2027-01-01",
@@ -4786,7 +4766,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-euratom-2027-01-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/sprijin-pentru-autoritatile-publice-locale-in-vederea-asigurarii-de-locuinte-sociale-pentru-persoanele-vulnerabile-iti-microregiunea-tara-fagarasului",
@@ -4806,7 +4786,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/sprijin-pentru-autoritatile-publice-locale-in-vederea-asigurarii-de-locuinte-sociale-pentru-persoanele-vulnerabile-iti-microregiunea-tara-fagarasului/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prsm-908-prsm_p4-op3-rso3-2-prsm_a29-finantarea-infrastructurii-de-reincarcare-destinata-vehiculelor-electrice-in-cadrul-programului-regional-sud-muntenia-2021-2027",
@@ -4825,7 +4805,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prsm-908-prsm_p4-op3-rso3-2-prsm_a29-finantarea-infrastructurii-de-reincarcare-destinata-vehiculelor-electrice-in-cadrul-programului-regional-sud-muntenia-2021-2027/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/investitii-in-infrastructura-publica-a-cabinetelor-medicale-scolare-inclusiv-a-cabinetelor-medicale-stomatologice-din-cadrul-unitatilor-de-invatamant-publice-pentru-asigurarea-accesului-copiilor-si",
@@ -4846,7 +4826,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/investitii-in-infrastructura-publica-a-cabinetelor-medicale-scolare-inclusiv-a-cabinetelor-medicale-stomatologice-din-cadrul-unitatilor-de-invatamant-publice-pentru-asigurarea-accesului-copiilor-si/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/is21c-cresterea-numarului-de-operatiuni-de-cooperare-operativa-transfrontaliera-empact-2",
@@ -4865,7 +4845,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/is21c-cresterea-numarului-de-operatiuni-de-cooperare-operativa-transfrontaliera-empact-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/is21c-cresterea-numarului-de-operatiuni-de-cooperare-operativa-transfrontaliera-empact",
@@ -4884,7 +4864,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/is21c-cresterea-numarului-de-operatiuni-de-cooperare-operativa-transfrontaliera-empact/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13326",
@@ -4903,7 +4883,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13326",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13327",
@@ -4922,7 +4902,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13327",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13328",
@@ -4941,7 +4921,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13328",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/consolidarea-capacitatilor-privind-supravegherea-frontierelor-lansare-apel-de-proiecte-2",
@@ -4960,7 +4940,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/consolidarea-capacitatilor-privind-supravegherea-frontierelor-lansare-apel-de-proiecte-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/implementarea-pactului-privind-azilul-si-migratia-2",
@@ -4979,7 +4959,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/implementarea-pactului-privind-azilul-si-migratia-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/instituirea-dezvoltarea-si-optimizarea-sistemelor-tic-pentru-managementul-integrat-al-frontierelor-2",
@@ -4999,7 +4979,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/instituirea-dezvoltarea-si-optimizarea-sistemelor-tic-pentru-managementul-integrat-al-frontierelor-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/consolidarea-capacitatilor-privind-supravegherea-frontierelor-lansare-apel-de-proiecte",
@@ -5018,7 +4998,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/consolidarea-capacitatilor-privind-supravegherea-frontierelor-lansare-apel-de-proiecte/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/implementarea-pactului-privind-azilul-si-migratia",
@@ -5037,7 +5017,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/implementarea-pactului-privind-azilul-si-migratia/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/instituirea-dezvoltarea-si-optimizarea-sistemelor-tic-pentru-managementul-integrat-al-frontierelor",
@@ -5057,7 +5037,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/instituirea-dezvoltarea-si-optimizarea-sistemelor-tic-pentru-managementul-integrat-al-frontierelor/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-2-rso1-2-1-ghidul-solicitantului-pentru-dezvoltarea-de-servicii-publice-digitale-noi-aflate-in-responsabilitatea-unitatilor-administrativ-teritoriale-judet-orientate-integrat-catre-me",
@@ -5079,7 +5059,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-2-rso1-2-1-ghidul-solicitantului-pentru-dezvoltarea-de-servicii-publice-digitale-noi-aflate-in-responsabilitatea-unitatilor-administrativ-teritoriale-judet-orientate-integrat-catre-me/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-finantarea-proiectelor-dedicate-mentinerii-imbunatatirii-starii-de-conservare-a-speciilor-si-habitatelor-prin-masuri-de-conservare",
@@ -5098,7 +5078,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-finantarea-proiectelor-dedicate-mentinerii-imbunatatirii-starii-de-conservare-a-speciilor-si-habitatelor-prin-masuri-de-conservare/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-dezvoltarea-si-modernizarea-centrelor-de-agrement-tabere-scolare-pentru-copii-si-tineri",
@@ -5117,7 +5097,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-dezvoltarea-si-modernizarea-centrelor-de-agrement-tabere-scolare-pentru-copii-si-tineri/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p8-asistenta-tehnica-apel-3",
@@ -5136,7 +5116,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-p8-asistenta-tehnica-apel-3/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12743",
@@ -5155,7 +5135,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12743",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13161",
@@ -5175,7 +5155,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/13161",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12905",
@@ -5195,7 +5175,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12905",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12904",
@@ -5214,7 +5194,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12904",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12902",
@@ -5233,7 +5213,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12902",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12843",
@@ -5253,7 +5233,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12843",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-09",
@@ -5273,7 +5253,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-09",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/continuarea-investitiilor-in-infrastructura-unitatilor-sanitare-publice-cu-utilizare-duala-preluate-din-planul-national-de-redresare-si-rezilienta-pnrr-2",
@@ -5293,7 +5273,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/continuarea-investitiilor-in-infrastructura-unitatilor-sanitare-publice-cu-utilizare-duala-preluate-din-planul-national-de-redresare-si-rezilienta-pnrr-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/continuarea-investitiilor-in-infrastructura-unitatilor-sanitare-preluate-din-planul-national-de-redresare-si-rezilienta-pnrr-2",
@@ -5313,7 +5293,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/continuarea-investitiilor-in-infrastructura-unitatilor-sanitare-preluate-din-planul-national-de-redresare-si-rezilienta-pnrr-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-sprijinirea-dezvoltarii-infrastructurii-turistice-balneare-si-a-infrastructurii-de-agrement-din-orasele-regiunii-centru",
@@ -5332,7 +5312,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-stat-si-de-minimis-sprijinirea-dezvoltarii-infrastructurii-turistice-balneare-si-a-infrastructurii-de-agrement-din-orasele-regiunii-centru/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-10",
@@ -5352,7 +5332,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-10",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-11",
@@ -5371,7 +5351,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-11",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-12",
@@ -5391,7 +5371,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-12",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-08",
@@ -5411,7 +5391,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-08",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-13",
@@ -5432,7 +5412,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-13",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-07",
@@ -5452,7 +5432,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2027-01-d1-07",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-infrastructuri-culturale-publice",
@@ -5471,7 +5451,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-infrastructuri-culturale-publice/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/adrsvo-asistenta-tehnica-asigurarea-functionarii-sistemului-de-management",
@@ -5490,7 +5470,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/adrsvo-asistenta-tehnica-asigurarea-functionarii-sistemului-de-management/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/managementul-principalelor-tipuri-de-risc-identificate-in-planul-national-de-management-al-riscurilor-la-dezastre-pnmrd-proiecte-noi-de-investitii",
@@ -5509,7 +5489,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/managementul-principalelor-tipuri-de-risc-identificate-in-planul-national-de-management-al-riscurilor-la-dezastre-pnmrd-proiecte-noi-de-investitii/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-3-rso2-1-1-eficienta-energetica-cladiri-rezidentiale-mrjm",
@@ -5528,7 +5508,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-ne-2026-3-rso2-1-1-eficienta-energetica-cladiri-rezidentiale-mrjm/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pdd-854-managementul-principalelor-tipuri-de-risc-identificate-in-planul-national-de-management-al-riscurilor-la-dezastre-pnmrd-proiecte-noi-de-consolidare-a-capacitatii-administrative",
@@ -5548,7 +5528,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pdd-854-managementul-principalelor-tipuri-de-risc-identificate-in-planul-national-de-management-al-riscurilor-la-dezastre-pnmrd-proiecte-noi-de-consolidare-a-capacitatii-administrative/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pdd-851-managementul-principalelor-tipuri-de-risc-identificate-in-planul-national-de-management-al-riscurilor-la-dezastre-pnmrd-proiecte-noi-de-investitii",
@@ -5567,7 +5547,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pdd-851-managementul-principalelor-tipuri-de-risc-identificate-in-planul-national-de-management-al-riscurilor-la-dezastre-pnmrd-proiecte-noi-de-investitii/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidului-solicitantului-pentru-actiunea-energie-verde-accesibila-si-mobilitate-nepoluanta-componenta-dezvoltarea-surselor-de-energie-regenerabila-in-perspectiva-crearii-comunitati",
@@ -5586,7 +5566,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidului-solicitantului-pentru-actiunea-energie-verde-accesibila-si-mobilitate-nepoluanta-componenta-dezvoltarea-surselor-de-energie-regenerabila-in-perspectiva-crearii-comunitati/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/am-41e-consolidarea-solidaritatii-si-a-cooperarii-cu-tarile-terte-afectate-de-fluxurile-migratorii",
@@ -5605,7 +5585,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/am-41e-consolidarea-solidaritatii-si-a-cooperarii-cu-tarile-terte-afectate-de-fluxurile-migratorii/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12621",
@@ -5625,7 +5605,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12621",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-47",
@@ -5646,7 +5626,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-47",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-03",
@@ -5665,7 +5645,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-42",
@@ -5685,7 +5665,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-42",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-08",
@@ -5704,7 +5684,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-08",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-11",
@@ -5725,7 +5705,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-11",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-06",
@@ -5744,7 +5724,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-06",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-10",
@@ -5764,7 +5744,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-10",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-02",
@@ -5783,7 +5763,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-49",
@@ -5802,7 +5782,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-49",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-06",
@@ -5822,7 +5802,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-06",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-16",
@@ -5842,7 +5822,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-16",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-01",
@@ -5862,7 +5842,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-17",
@@ -5881,7 +5861,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-17",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-22",
@@ -5901,7 +5881,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-22",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-02",
@@ -5922,7 +5902,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-09",
@@ -5943,7 +5923,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-09",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-04",
@@ -5964,7 +5944,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-04",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-08",
@@ -5985,7 +5965,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-08",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-05",
@@ -6005,7 +5985,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-digital-emerging-05",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-07",
@@ -6025,7 +6005,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-human-07",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-03",
@@ -6044,7 +6024,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-04-data-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-62",
@@ -6064,7 +6044,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-62",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-61",
@@ -6084,7 +6064,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-01-mat-prod-61",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-01",
@@ -6103,7 +6083,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-02",
@@ -6122,7 +6102,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-raise-2027-01-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-digital-emerging-52-two-stage",
@@ -6141,7 +6121,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-digital-emerging-52-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-mat-prod-32-two-stage",
@@ -6162,7 +6142,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-02-mat-prod-32-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-conditii-de-accesare-a-finantarii-pentru-imbunatatirea-sistemului-de-raspuns-la-risc",
@@ -6181,7 +6161,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-conditii-de-accesare-a-finantarii-pentru-imbunatatirea-sistemului-de-raspuns-la-risc/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-disease-01-two-stage",
@@ -6202,7 +6182,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-disease-01-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-disease-14-two-stage",
@@ -6223,7 +6203,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-disease-14-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage",
@@ -6243,7 +6223,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-care-02",
@@ -6263,7 +6243,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-care-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2026-04-governance-01",
@@ -6283,7 +6263,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2026-04-governance-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-business-01",
@@ -6305,7 +6285,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-business-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-business-02",
@@ -6324,7 +6304,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-business-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-regen-03",
@@ -6344,7 +6324,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-regen-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-business-03",
@@ -6363,7 +6343,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-business-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-participation-03",
@@ -6383,7 +6363,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-participation-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-regen-01",
@@ -6402,7 +6382,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-regen-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-participation-02",
@@ -6422,7 +6402,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-participation-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-04",
@@ -6442,7 +6422,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-04",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-05",
@@ -6461,7 +6441,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-05",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-regen-02",
@@ -6480,7 +6460,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-regen-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-06",
@@ -6499,7 +6479,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-06",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-23",
@@ -6520,7 +6500,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-23",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-14",
@@ -6541,7 +6521,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl5-2026-11-d3-14",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-participation-01",
@@ -6560,7 +6540,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-neb-2026-01-participation-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-06",
@@ -6579,7 +6559,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-06",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-08",
@@ -6599,7 +6579,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-08",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-ind-01",
@@ -6618,7 +6598,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-ind-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-stayhlth-01",
@@ -6638,7 +6618,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-stayhlth-01",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-05-digital-emerging-03",
@@ -6659,7 +6639,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl4-2027-05-digital-emerging-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-envhlth-02",
@@ -6679,7 +6659,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-envhlth-02",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-10",
@@ -6698,7 +6678,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-10",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-05",
@@ -6718,7 +6698,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-05",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-envhlth-missclima-03",
@@ -6739,7 +6719,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-envhlth-missclima-03",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-07",
@@ -6758,7 +6738,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-07",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-ind-02-two-stage",
@@ -6778,7 +6758,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-ind-02-two-stage",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12447",
@@ -6798,7 +6778,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/12447",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-conditii-specifice-pentru-introducerea-in-mysmis2021-a-fiselor-de-proiecte-selectate-de-grupurile-de-actiune-locala-etapa-a-iii-a-a-mecanismului-dlrc",
@@ -6817,7 +6797,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-conditii-specifice-pentru-introducerea-in-mysmis2021-a-fiselor-de-proiecte-selectate-de-grupurile-de-actiune-locala-etapa-a-iii-a-a-mecanismului-dlrc/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/jtm-2026-pslf-framework-loans",
@@ -6836,7 +6816,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/jtm-2026-pslf-framework-loans",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/jtm-2026-pslf-standalone-projects",
@@ -6855,7 +6835,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/jtm-2026-pslf-standalone-projects",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11674",
@@ -6875,7 +6855,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11674",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11702",
@@ -6894,7 +6874,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11702",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11268",
@@ -6915,7 +6895,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11268",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-1-2-1-participarea-imm-si-organizatiilor-de-cdi-in-structuri-parteneriate-si-programe-de-colaborare",
@@ -6934,7 +6914,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-1-2-1-participarea-imm-si-organizatiilor-de-cdi-in-structuri-parteneriate-si-programe-de-colaborare/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-actiunea-6-2-valorificarea-potentialului-turistic-in-zone-non-urbane",
@@ -6953,7 +6933,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-pentru-actiunea-6-2-valorificarea-potentialului-turistic-in-zone-non-urbane/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/apel-regional-1-1-dezvoltare-integrata-in-zonele-urbane-prin-regenerare-urbana-conservarea-patrimoniului-si-dezvoltarea-turismului-municipii-resedinta-de-judet-si-municipii",
@@ -6972,7 +6952,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/apel-regional-1-1-dezvoltare-integrata-in-zonele-urbane-prin-regenerare-urbana-conservarea-patrimoniului-si-dezvoltarea-turismului-municipii-resedinta-de-judet-si-municipii/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11265",
@@ -6992,7 +6972,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11265",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11145",
@@ -7011,7 +6991,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11145",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11143",
@@ -7030,7 +7010,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/11143",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/asistenta-tehnica-pap-2021-2027",
@@ -7049,7 +7029,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/asistenta-tehnica-pap-2021-2027/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-apeluri-pentru-depunerea-in-mysmis-a-cererilor-de-finantare-pentru-operatiunile-selectate-de-grupul-de-actiune-locala-pentru-mediul-rural-sau-pentru-orasele-si-municipii",
@@ -7070,7 +7050,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-apeluri-pentru-depunerea-in-mysmis-a-cererilor-de-finantare-pentru-operatiunile-selectate-de-grupul-de-actiune-locala-pentru-mediul-rural-sau-pentru-orasele-si-municipii/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/apelul-de-proiecte-pr-bi-pr-bi-p8-2025-asistenta-tehnica-apel-2-2025-aferent-codurilor-de-interventie-179-181-182",
@@ -7089,7 +7069,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/apelul-de-proiecte-pr-bi-pr-bi-p8-2025-asistenta-tehnica-apel-2-2025-aferent-codurilor-de-interventie-179-181-182/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/apelul-de-proiecte-pr-bi-pr-bi-p8-2025-asistenta-tehnica-apel-1-2025-aferent-codului-de-interventie-180",
@@ -7108,7 +7088,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/apelul-de-proiecte-pr-bi-pr-bi-p8-2025-asistenta-tehnica-apel-1-2025-aferent-codului-de-interventie-180/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/programul-national-de-investitii-in-infrastructura-unitatilor-spitalicesti-apel-tip-c-2",
@@ -7128,7 +7108,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/programul-national-de-investitii-in-infrastructura-unitatilor-spitalicesti-apel-tip-c-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/10941",
@@ -7148,7 +7128,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/10941",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prsm-638-prsm_p2-op2-promovarea-eficientei-energetice-si-reducerea-emisiilor-de-gaze-cu-efect-de-sera-prin-investitii-in-cladiri-publice-facilitatea-elena",
@@ -7167,7 +7147,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prsm-638-prsm_p2-op2-promovarea-eficientei-energetice-si-reducerea-emisiilor-de-gaze-cu-efect-de-sera-prin-investitii-in-cladiri-publice-facilitatea-elena/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prv-8-2-asistenta-tehnica-apel-2",
@@ -7186,7 +7166,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prv-8-2-asistenta-tehnica-apel-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/new-european-bauhaus-apel-1-proiecte-pilot",
@@ -7205,7 +7185,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/new-european-bauhaus-apel-1-proiecte-pilot/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-6-1-bc-scoli-si-licee",
@@ -7224,7 +7204,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-6-1-bc-scoli-si-licee/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-bi-p6-6-4-1-2024-apel-dedicat-infrastructurii-educationale-pentru-invatamantul-superior-inclusiv-campusuri",
@@ -7244,7 +7224,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-bi-p6-6-4-1-2024-apel-dedicat-infrastructurii-educationale-pentru-invatamantul-superior-inclusiv-campusuri/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-conditii-de-accesare-a-finantarii-pentru-proiecte-noi-in-sectorul-deseurilor",
@@ -7263,7 +7243,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-conditii-de-accesare-a-finantarii-pentru-proiecte-noi-in-sectorul-deseurilor/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-centru-apel-ii-p9-asistenta-tehnica-din-cadrul-programului-regiunea-centru",
@@ -7282,7 +7262,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-centru-apel-ii-p9-asistenta-tehnica-din-cadrul-programului-regiunea-centru/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/apel-dedicat-consolidarii-capacitatii-directiei-generale-tranzitie-justa-si-competitivitate-economica-din-cadrul-mipe",
@@ -7302,7 +7282,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/apel-dedicat-consolidarii-capacitatii-directiei-generale-tranzitie-justa-si-competitivitate-economica-din-cadrul-mipe/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ptj-p7-amptj-ghidul-solicitantului-asistenta-tehnica",
@@ -7321,7 +7301,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ptj-p7-amptj-ghidul-solicitantului-asistenta-tehnica/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-privind-acordarea-de-granturi-in-industria-prelucratoare-elaborat-in-baza-hotararii-guvernului-nr-702-2024",
@@ -7340,7 +7320,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-privind-acordarea-de-granturi-in-industria-prelucratoare-elaborat-in-baza-hotararii-guvernului-nr-702-2024/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prsm-414-prsm_p3-op2-rso2-8-prsm_a26-sprijin-acordat-municipiilor-resedinta-de-judet-inclusiv-zonelor-urbane-functionale-ale-acestora-din-regiunea-sud-muntenia-pentru-investitii-in-operatiuni-de",
@@ -7359,7 +7339,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prsm-414-prsm_p3-op2-rso2-8-prsm_a26-sprijin-acordat-municipiilor-resedinta-de-judet-inclusiv-zonelor-urbane-functionale-ale-acestora-din-regiunea-sud-muntenia-pentru-investitii-in-operatiuni-de/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prsm-385-prsm_p6-op5-rso5-1-prsm_a32-sprijin-acordat-municipiilor-resedinta-de-judet-inclusiv-zonelor-urbane-functionale-ale-acestora-din-regiunea-sud-muntenia-pentru-investitii-in-operatiuni-de",
@@ -7378,7 +7358,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prsm-385-prsm_p6-op5-rso5-1-prsm_a32-sprijin-acordat-municipiilor-resedinta-de-judet-inclusiv-zonelor-urbane-functionale-ale-acestora-din-regiunea-sud-muntenia-pentru-investitii-in-operatiuni-de/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/furnizarea-de-masuri-active-in-pachete-de-servicii-integrate",
@@ -7398,7 +7378,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/furnizarea-de-masuri-active-in-pachete-de-servicii-integrate/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-scheme-nationale-de-stimulare-a-ocuparii-tinerilor",
@@ -7418,7 +7398,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-scheme-nationale-de-stimulare-a-ocuparii-tinerilor/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/apel-1-ghidul-solicitantului-asistenta-tehnica",
@@ -7437,7 +7417,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/apel-1-ghidul-solicitantului-asistenta-tehnica/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/asistenta-tehnica",
@@ -7456,7 +7436,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/asistenta-tehnica/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-schema-de-ajutor-de-minimis-pentru-investitiile-in-infrastructura-de-reincarcare-pentru-vehicule-electrice-statii-puncte-de-reincarcare-electrica",
@@ -7475,7 +7455,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-schema-de-ajutor-de-minimis-pentru-investitiile-in-infrastructura-de-reincarcare-pentru-vehicule-electrice-statii-puncte-de-reincarcare-electrica/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/conditii-de-accesare-a-finantarii-pentru-proiectele-noi-de-apa-si-apa-uzata",
@@ -7494,7 +7474,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/conditii-de-accesare-a-finantarii-pentru-proiectele-noi-de-apa-si-apa-uzata/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-minimis-pentru-activitati-de-cercetare-dezvoltare-si-inovare-prin-prioritatea-1-sustinerea-si-promovarea-unui-sistem-de-cdi-atractiv-si-competitiv-in-ro",
@@ -7515,7 +7495,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/schema-de-ajutor-de-minimis-pentru-activitati-de-cercetare-dezvoltare-si-inovare-prin-prioritatea-1-sustinerea-si-promovarea-unui-sistem-de-cdi-atractiv-si-competitiv-in-ro/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pr-nord-vest-lanseaza-apelul-132-a-2-sprijinirea-dezvoltarii-unor-investitii-initiale-ale-unor-imm-uri-in-cadrul-parcurilor-de-specializare-inteligenta",
@@ -7534,7 +7514,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pr-nord-vest-lanseaza-apelul-132-a-2-sprijinirea-dezvoltarii-unor-investitii-initiale-ale-unor-imm-uri-in-cadrul-parcurilor-de-specializare-inteligenta/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ministerul-energiei-sprijinirea-investitiilor-pentru-modernizarea-reabilitarea-retelei-inteligente-de-termoficare-program-cheie-5",
@@ -7553,7 +7533,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ministerul-energiei-sprijinirea-investitiilor-pentru-modernizarea-reabilitarea-retelei-inteligente-de-termoficare-program-cheie-5/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/proiecte-eureka-2024",
@@ -7572,7 +7552,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/proiecte-eureka-2024/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/prsm-149-prsm_p4-op3-rso3-2-prsm_a29-dezvoltarea-si-cresterea-unei-mobilitati-nationale-regionale-si-locale-durabile-inteligente-si-intermodale-prin-investitii-in-reabilitarea-modernizarea-exti-2",
@@ -7591,7 +7571,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/prsm-149-prsm_p4-op3-rso3-2-prsm_a29-dezvoltarea-si-cresterea-unei-mobilitati-nationale-regionale-si-locale-durabile-inteligente-si-intermodale-prin-investitii-in-reabilitarea-modernizarea-exti-2/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-privind-acordarea-ajutorului-de-stat-pentru-reducerea-accizei-la-motorina-utilizata-in-agricultura",
@@ -7610,7 +7590,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-privind-acordarea-ajutorului-de-stat-pentru-reducerea-accizei-la-motorina-utilizata-in-agricultura/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-finantarea-proiectelor-care-vizeaza-sinergii-cu-actiunile-orizont-europa-si-alte-programe-europene",
@@ -7632,7 +7612,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-finantarea-proiectelor-care-vizeaza-sinergii-cu-actiunile-orizont-europa-si-alte-programe-europene/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/pt-115-pt_p6-op2-rso2-8-pt_a20-trenul-metropolitan-bucuresti-fc",
@@ -7651,7 +7631,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/pt-115-pt_p6-op2-rso2-8-pt_a20-trenul-metropolitan-bucuresti-fc/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/programul-national-de-constructii-de-interes-public-sau-social",
@@ -7670,7 +7650,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/programul-national-de-constructii-de-interes-public-sau-social/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-aferent-apelului-asistenta-tehnica",
@@ -7690,7 +7670,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/ghidul-solicitantului-aferent-apelului-asistenta-tehnica/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/poids-ghidul-solicitantului-aferent-apelului-asistenta-tehnica",
@@ -7709,7 +7689,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/poids-ghidul-solicitantului-aferent-apelului-asistenta-tehnica/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://oportunitati-ue.gov.ro/apel/apia-ghid-privind-interventiile-aferente-sectorului-apicol-2023",
@@ -7728,7 +7708,7 @@
    ],
    "officialUrl": "https://oportunitati-ue.gov.ro/apel/apia-ghid-privind-interventiile-aferente-sectorului-apicol-2023/",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   },
   {
    "id": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2022-eche-cert-fp",
@@ -7748,7 +7728,7 @@
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/erasmus-edu-2022-eche-cert-fp",
    "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-24T07:43:00+02:00"
+   "fetchedAt": "2026-11-25T07:43:47+02:00"
   }
  ]
 }
