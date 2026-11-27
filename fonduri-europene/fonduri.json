@@ -3,7 +3,7 @@
  "updated": "2026-11-27T10:22:54+02:00",
  "fetchedAt": "2026-11-27T10:22:54+02:00",
  "source": "https://oportunitati-ue.gov.ro/apeluri/?_sfm_status=activ&sf_paged=1",
- "count": 417,
+ "count": 416,
  "note": "Eligibilitatea nu este dedusă; condițiile oficiale sunt în ghidul fiecărui apel.",
  "calls": [
   {
@@ -4207,25 +4207,6 @@
     "cercetare"
    ],
    "officialUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/15323",
-   "source": "oportunitati-ue.gov.ro",
-   "fetchedAt": "2026-11-27T10:22:54+02:00"
-  },
-  {
-   "id": "https://oportunitati-ue.gov.ro/apel/sprijin-pentru-dezvoltarea-turismului-in-mediul-rural-apel-nr-2",
-   "title": "Sprijin pentru dezvoltarea turismului în mediul rural – Apel nr. 2",
-   "program": "Programe Regionale",
-   "type": "",
-   "status": "Activ",
-   "openingDateRaw": "31 august 2026",
-   "openingDate": "2026-08-31T23:59+03:00",
-   "deadlineRaw": "27 noiembrie 2026 12:00",
-   "deadline": "2026-11-27T12:00+02:00",
-   "timezone": "Europe/Bucharest",
-   "budgetRaw": "",
-   "categories": [
-    "energie"
-   ],
-   "officialUrl": "https://oportunitati-ue.gov.ro/apel/sprijin-pentru-dezvoltarea-turismului-in-mediul-rural-apel-nr-2/",
    "source": "oportunitati-ue.gov.ro",
    "fetchedAt": "2026-11-27T10:22:54+02:00"
   },
